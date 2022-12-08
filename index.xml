@@ -43,12 +43,8 @@ About Me My game ID is Runaway_Fancy.
       
       <guid>http://runawayfancy.me/notes/</guid>
       <description>About I collected and summarized several notes from physics and mathematics courses during my undergraduate learning period. Most of them are referred to famous textbooks and lecture notes of online open courses. Unfortunately, most of the notes are handwritten and maybe I will rebuild them into $\LaTeX$ versions.
-Classical Mechanics tbc.
-Quantum Mechanics tbc.
-Mathematical Methods in Physics tbc.
-Thermodynamics and Statistical Mechanics tbc.
-Classical Electrodynamics tbc.
-Solid State Physics tbc.</description>
+Selected topics Direct/Super exchange interaction and ISWAP gating SE-Interaction and ISWAP gate (Last Update 12/9/2022)
+Displaced Fock State Displaced Fock State (Last Update 12/9/2022)</description>
     </item>
     
     <item>
@@ -58,9 +54,9 @@ Solid State Physics tbc.</description>
       
       <guid>http://runawayfancy.me/research/</guid>
       <description>Quantum Physics
-A quantum algorithm for collision inducing disturbance vectors in SHA-1
+*A quantum algorithm for collision inducing disturbance vectors in SHA-1( arXiv:2210.12762 )
 Advisor: Prof. Hou IAN
-Seeding a disturbance vector in the has mapping to obtain a successful collision is a major focus of cryptographic study in the past two decades to improve hash protocols. We propose an algorithm that takes advantage of entangled quantum states for concurrent seeding of candidate disturbance vectors, out of which the one entailing collision is selected thought a combination of Grover search , phase-gate, and information feedbacks form classical computing machinery.</description>
+Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols.</description>
     </item>
     
     <item>
