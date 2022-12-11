@@ -37,7 +37,7 @@ About Me My game ID is Runaway_Fancy.
     </item>
     
     <item>
-      <title>Notes</title>
+      <title>Notes and Presentations</title>
       <link>http://runawayfancy.me/notes/</link>
       <pubDate>Mon, 04 Jul 2022 02:53:19 +0800</pubDate>
       
@@ -53,9 +53,8 @@ Displaced Fock State Displaced Fock State (Last Update 12/9/2022)</description>
       <pubDate>Mon, 04 Jul 2022 02:53:19 +0800</pubDate>
       
       <guid>http://runawayfancy.me/research/</guid>
-      <description>Quantum Physics
-*A quantum algorithm for collision inducing disturbance vectors in SHA-1( arXiv:2210.12762 )
-Advisor: Prof. Hou IAN
+      <description>Quantum Physics A quantum algorithm for collision inducing disturbance vectors in SHA-1( arXiv:2210.12762 ) Advisor: Prof. Hou IAN
+Oct. 2021 - Oct. 2022
 Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols.</description>
     </item>
     
