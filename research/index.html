@@ -1,220 +1,1465 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <script>
-    MathJax = {
-        tex: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']],
-            displayMath: [['$$','$$'], ['\\[', '\\]']],
-            processEscapes: true,
-            processEnvironments: true
-        },
-        options: {
-            skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre']
-        }
-    };
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: July 9, 2023 --><html lang="en-us" >
 
-window.addEventListener('load', (event) => {
-    document.querySelectorAll("mjx-container").forEach(function(x){
-        x.parentElement.classList += 'has-jax'})
-});
 
-</script>
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script type="text/javascript" id="MathJax-script" async
-    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png">
-    <link rel="manifest" href="/images/site.webmanifest">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="A simple, minimal blog for those who love text.">
-    <title>Research | Jiheng Duan</title>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="stylesheet" href="/css/fonts.css" />
-    <link rel="stylesheet" href="http://runawayfancy.me/css/theme-override.css">
-    <header>
+  
+  
 
-  <nav>
-    <ul>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
       
       
-      <li class="pull-left ">
-        <a href="http://runawayfancy.me/">Jiheng Duan</a>
-      </li>
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Jiheng Duan 段繼恆" />
+
+
+
+
+
+  
+
+<meta name="description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://example.com/research/" />
+<link rel="canonical" href="https://example.com/research/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+
+  <meta property="twitter:site" content="@wowchemy" />
+  <meta property="twitter:creator" content="@wowchemy" />
+<meta property="twitter:image" content="https://example.com/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Academic" />
+<meta property="og:url" content="https://example.com/research/" />
+<meta property="og:title" content="Researches | Academic" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://example.com/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta property="og:updated_time" content="2023-07-06T00:00:00&#43;00:00" />
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+  
+  
+    <link rel="alternate" href="/research/index.xml" type="application/rss+xml" title="Academic" />
+  
+
+  
+
+
+  
+  <title>Researches | Academic</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+<aside class="search-modal" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#" aria-label="Close"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control"
+        aria-label="Search...">
+        
+      </div>
+
+      
+      
+
+      
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
 
       
 
       
       
-      <li class="pull-right">
-        <a href="/miscellany">Miscellany</a>
-      </li>
-      
-      
-      <li class="pull-right">
-        <a href="/notes">Notes</a>
-      </li>
-      
-      
-      <li class="pull-right">
-        <a href="/cv">CV</a>
-      </li>
-      
-      
-      <li class="pull-right">
-        <a href="/research">Research</a>
-      </li>
-      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
-    </ul>
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#research"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#blog"><span>Blog</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Miscellany</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#SPUM"><span>SPUM</span></a>
+              
+                <a class="dropdown-item" href="/#editing"><span>Minecraft & Editing</span></a>
+              
+                <a class="dropdown-item" href="/#REMS"><span>REMS SMP</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/CV.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/xueduanle" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
   </nav>
 </header>
 
-  </head>
 
-  <body>
-    <br/>
+  </div>
 
-<div class="article-meta" style="background-color: #daf0f7;">
-<h1><span class="title">Research</span></h1>
+  <div class="page-body">
+    
+    
+    
+
+    
 
 
-<p class="terms">
+
+
+
+
+
+
+
+
+
+
+
+  
+
   
   
   
+    
   
+<div class="universal-wrapper pt-3">
+  <h1>Researches</h1>
+
   
-</p>
+
+  
 </div>
 
 
-<div class="content-wrapper">
-  <main>
-    <h2 id="quantum-physics">Quantum Physics</h2>
-<h3 id="a-quantum-algorithm-for-collision-inducing-disturbance-vectors-in-sha-1a-hrefhttpsarxivorgabs221012762-style--color-285d93-arxiv221012762-a">A quantum algorithm for collision inducing disturbance vectors in SHA-1(<a href="https://arxiv.org/abs/2210.12762" style = "color: #285d93"> arXiv:2210.12762 </a>)</h3>
-<ul>
-<li>
-<p><strong>Advisor</strong>: <a href = https://iapme.um.edu.mo/people/academic-staff/ian-hou/ style = "color: #285d93">Prof. Hou IAN</a></p>
-</li>
-<li>
-<p><strong>Oct. 2021 - Oct. 2022</strong></p>
-</li>
-<li>
-<p>Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols. We propose an algorithm that takes advantage of entangled quantum states for concurrent seeding of candidate disturbance vectors, out of which the one entailing collision is selected through a combination of quantum search, phase gating, diffusion gating, and information feedbacks from classical computing machinery. The complexity reduction is shown to be on the order of $O(2^{n/2+1})$ where n is the number of qubits encoding addresses. We demonstrate the practicality of the proposed by an implementation scheme based on degenerate optical parametric oscillators.</p>
-</li>
-</ul>
-<p></p>
-<img src="https://github.com/RunawayFancy/RunawayFancy/raw/main/Figures/SHA-1.png" alt="alternatetext" style="width:80%;height:80%; border: 1px solid #ddd">
-<h3 id="on-the-phase-controlled-qubit-state-measurement-using-analog-microwave-phase-shiftersubmitted-to-qinp">On the Phase Controlled Qubit State Measurement Using Analog Microwave Phase Shifter(Submitted to QINP)</h3>
-<ul>
-<li>
-<p><strong>Advisor</strong>: <a href = https://iapme.um.edu.mo/people/academic-staff/ian-hou/ style = "color: #285d93">Prof. Hou IAN</a></p>
-</li>
-<li>
-<p><strong>Oct. 2021 - Feb. 2022</strong></p>
-</li>
-<li>
-<p>Superconducting quantum circuits are the most popular solid-state system used to implement quantum computation. Their computational units, the superconducting qubits, are micro-fabricated on substrates using thin-film deposition techniques similar to typical integrated circuits. The control and measurements of these qubits rely on waveguides microwave fields with techniques similar to those for millimeter-wave analog circuitry, where the output signal phase relative to the input plays a crucial role in determining the quantum state. A controllable phase to align the carrier and the amplitude envelope thus becomes essential. In this work, we implement a microwave phase shifter with 1 GHz bandwidth about the 4.75 GHz center frequency in conjunction with standard microwave equipment to measure a qubit.</p>
-</li>
-</ul>
-<p></p>
-<img src="https://github.com/RunawayFancy/RunawayFancy/raw/main/Figures/phase_shifter.png" alt="alternatetext" style="width:80%;height:80%; border: 1px solid #ddd">
-<h3 id="review-max-cut-problem-with-2000-node-optimization-by-simulated-and-quantum-annealing-algorithms">Review MAX-CUT problem with 2000-node optimization by simulated and quantum annealing algorithms</h3>
-<ul>
-<li>
-<p><strong>Advisor</strong>: <a href = https://iapme.um.edu.mo/people/academic-staff/ian-hou/ style = "color: #285d93">Prof. Hou IAN</a></p>
-</li>
-<li>
-<p><strong>May 2021 - Sept. 2021</strong></p>
-</li>
-<li>
-<p>A summer research project finished in June, 2021. We review using simulated annealing and quantum annealing algorithms to minimize the Hamiltonian of an Ising spin glass model to solve a corresponding MAX-CUT problem. We compared the efficiency between homogeneous and inhomogeneous simulated annealing based on the logarithm annealing schedule. The final report is available <a href = https://github.com/RunawayFancy/2021-6-7--SummerResearchProject style = "color: #285d93">here</a>.</p>
-</li>
-</ul>
-<p></p>
-<h3 id="diagonalizing-the-hamiltonian-of-two-coupled-flux-qubits-for-realizing-a-strong-field-electromagnetically-induced-transparencyspan">Diagonalizing the Hamiltonian of two coupled flux qubits for realizing a strong field electromagnetically induced transparency</span></h3>
-<ul>
-<li>
-<p><strong>Advisor</strong>: <a style = "color: #285d93">Ziyang YOU</a></p>
-</li>
-<li>
-<p><strong>Nov. 2021 - Jan. 2022</strong></p>
-</li>
-<li>
-<p>I helped to diagonalize the Hamiltonian of two $\sigma_x$ coupled flux qubits which aim to realizing a strong field electromagnetic induced transparency. The detailed file is available <a href = https://github.com/RunawayFancy/RunawayFancy/blob/main/Hamiltonian%20Diaganolization.pdf style = "color: #285d93">here</a>.</p>
-</li>
-</ul>
 
-    <a href="/"> >> Home</a>
-  </main>
+<div class="universal-wrapper">
+  
+
+
+  
+
+  
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/research/predistortion/" >Exploring Flux Pulse Predistortion Methods</a>
+    </div>
+
+    
+    <a href="/research/predistortion/"  class="summary-link">
+      <div class="article-style">
+        Exploring predistortion methods to fix distortions on the flux pulses used in Z-control of flux tunable superconducting qubits.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jul 6, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
 </div>
-    <footer>
+
       
-<script>
-(function() {
-  function center_el(tagName) {
-    var tags = document.getElementsByTagName(tagName), i, tag;
-    for (i = 0; i < tags.length; i++) {
-      tag = tags[i];
-      var parent = tag.parentElement;
+    </div>
+
+    
+    <div class="btn-links">
       
-      if (parent.childNodes.length === 1) {
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/" >
+    <i class="fas fa-file mr-1"></i>Document</a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+    
+      
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/" >
+    <i class="fab fa-github mr-1"></i>Code</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/research/predistortion/" >
+        <img src="/research/predistortion/featured_hu4df2950a76031d06f4b1ae852980a6cb_42856_150x0_resize_q75_h2_lanczos_3.webp" height="100" width="150"
+            alt="Exploring Flux Pulse Predistortion Methods" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/research/qa_sha-1/" >A Quantum Algorithm for Finding Collision-inducing Disturbance Vectors in SHA-1</a>
+    </div>
+
+    
+    <a href="/research/qa_sha-1/"  class="summary-link">
+      <div class="article-style">
+        A black-box query model quantum algorithm with a proposed optical implementation setup.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
         
-        if (parent.nodeName === 'A') {
-          parent = parent.parentElement;
-          if (parent.childNodes.length != 1) continue;
-        }
-        if (parent.nodeName === 'P') parent.style.textAlign = 'center';
-      }
-    }
-  }
-  var tagNames = ['img', 'embed', 'object'];
-  for (var i = 0; i < tagNames.length; i++) {
-    center_el(tagNames[i]);
-  }
-})();
-</script>
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 27, 2022
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
 
       
+    </div>
+
+    
+    <div class="btn-links">
       
 
-      <div style="display: flex; flex-direction: row; justify-content: space-around; background-color: #002c55; padding-top: 10px; padding-bottom: 10px;" >
-        <div style="text-align: left; color: #fff;line-height: 2rem;">
-          <div>Jiheng Duan</div>
-          <div style="font-size: 1rem;">Undergraduate Student</div>
-          <div style="font-size: 1rem;"> <a href="mailto://gigi.duan@connect.um.edu.mo">Email</a></div>
-          <div style="display: flex; flex-direction: row;"> 
-            <div style="margin: 4px 7px;"> <a href="https://scholar.google.com/citations?user=cHOxggIAAAAJ"><i class="fa-brands fa-google" style="font-size:24px"></i></a></div>
-            <div style="margin: 4px 7px;"> <a href="https://github.com/RunawayFancy"><i class="fa-brands fa-github" style="font-size:24px"></i></a></div>
-            <div style="margin: 4px 7px;"> <a href="https://www.youtube.com/channel/UC4rLZZmg_x0ccxG_Ai6intA"><i class="fa-brands fa-youtube" style="font-size:24px"></i></a></div>
-            <div style="margin: 4px 7px;"> <a href="https://space.bilibili.com/28458242?spm_id_from=333.1007.0.0"><i class="fa-brands fa-bilibili" style="font-size:22px"></i></a></div>
-            <div style="margin: 4px 7px;"> <a href="https://twitter.com/xueduanle"><i class="fa-brands fa-twitter" style="font-size:24px"></i></a></div>
-            <div style="margin: 4px 7px;"> <a href="https://t.me/Runaway_Fancy"><i class="fa-brands fa-telegram" style="font-size:24px"></i></a></div>
-          </div>
-        </div>
 
-        <div style="text-align: left; color: #fff; font-size: 1rem; line-height: 2rem;">
-          <div>University of Macau</div>
-          <div>Avenida da Universidade</div>
-          <div>Taipa, Macau, China</div>
-        </div>
 
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://arxiv.org/pdf/2210.12762.pdf" target="_blank" rel="noopener">
+    <i class="fas fa-file mr-1"></i>Paper</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/research/qa_sha-1/" >
+        <img src="/research/qa_sha-1/featured_hu42b589788152c13c39acaa2bcc2f6cfe_63473_150x0_resize_q75_h2_lanczos_3.webp" height="84" width="150"
+            alt="A Quantum Algorithm for Finding Collision-inducing Disturbance Vectors in SHA-1" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/research/sa_maxcut/" >Exploring Optimization Techniques for Large-scale Problems</a>
+    </div>
+
+    
+    <a href="/research/sa_maxcut/"  class="summary-link">
+      <div class="article-style">
+        A Study of Simulated Annealing and Quantum Annealing on the Ising Model and MAX-CUT Problem with 2000 Nodes.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
         
-        <div>
-          <script type="text/javascript" src="//rf.revolvermaps.com/0/0/8.js?i=5zhxx76hykg&amp;m=2&amp;c=ff0000&amp;cr1=ffffff&amp;f=arial&amp;l=33&amp;s=170" async="async"></script>
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Aug 1, 2021
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://oaps.umac.mo/handle/10692.1/299" target="_blank" rel="noopener">
+    <i class="fas fa-file mr-1"></i>Paper</a>
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/research/sa_maxcut/" >
+        <img src="/research/sa_maxcut/featured_hue918ebc0c96089efccd51f2d84975c5c_577435_150x0_resize_q75_h2_lanczos_3.webp" height="70" width="150"
+            alt="Exploring Optimization Techniques for Large-scale Problems" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="media stream-item view-compact">
+  <div class="media-body">
+
+    <div class="section-subheading article-title mb-0 mt-0">
+      <a href="/research/phase_shifter/" >On the Phase Controlled Qubit State Measurement Using Analog Microwave Phase Shifter</a>
+    </div>
+
+    
+    <a href="/research/phase_shifter/"  class="summary-link">
+      <div class="article-style">
+        A new method for measuring superconducting qubit state using a phase shifter in the signal modulation process.
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+        
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jan 1, 0001
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+
+</div>
+
+      
+    </div>
+
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+      
+      <a href="/research/phase_shifter/" >
+        <img src="/research/phase_shifter/featured_hu5aa1a6cee729e74a78df0e5fe03c033a_194144_150x0_resize_q75_h2_lanczos_3.webp" height="109" width="150"
+            alt="On the Phase Controlled Qubit State Measurement Using Analog Microwave Phase Shifter" loading="lazy">
+      </a>
+    
+  </div>
+</div>
+
+  
+
+  
+
+  
+
+</div>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    Copyright © 2023 Jiheng Duan. This work is licensed under MIT license
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <script id="search-hit-fuse-template" type="text/x-template">
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
         </div>
       </div>
+    </div>
+  </script>
+  
+    <script src="https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js" integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js" integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin="anonymous"></script>
+  
 
 
-      <div style="text-align: center; font-size:0.7rem; padding-top: 5px; background-color: #002c55; color: #fff; margin-top: 1px;padding-bottom: 5px;">
-        Copyright ©2022 Jiheng Duan
-      </div>
-    </footer>
-  </body>
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+<script src="/en/js/wowchemy.min.ead4a376bcf2c4714888c770ea9b0040.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
 </html>

@@ -1,70 +1,426 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Index on Jiheng Duan</title>
-    <link>http://runawayfancy.me/</link>
-    <description>Recent content in Index on Jiheng Duan</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 04 Jul 2022 02:53:19 +0800</lastBuildDate><atom:link href="http://runawayfancy.me/index.xml" rel="self" type="application/rss+xml" />
+    <title>Academic</title>
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Academic</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <title>Academic</title>
+      <link>https://example.com/</link>
+    </image>
+    
     <item>
-      <title>Curriculum-Vitae</title>
-      <link>http://runawayfancy.me/cv/</link>
-      <pubDate>Mon, 04 Jul 2022 02:53:19 +0800</pubDate>
-      
-      <guid>http://runawayfancy.me/cv/</guid>
-      <description>You can download my curriculum-vitae via here. If the preview cannot be displayed, please refresh the page several times.</description>
+      <title>Minecraft and Editing</title>
+      <link>https://example.com/miscellany/editing/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/miscellany/editing/</guid>
+      <description>&lt;h2 id=&#34;redstone-tech&#34;&gt;Redstone Tech&lt;/h2&gt;
+&lt;p&gt;Redstone is one of the most creative and sophisticated areas in Minecraft. Player used redstone objects like piston, repeater, observer combined with slime and honey block built up logical circuits and various machineries.&lt;/p&gt;
+&lt;h3 id=&#34;about-me&#34;&gt;About Me&lt;/h3&gt;
+&lt;img src=&#34;https://github.com/RunawayFancy/RunawayFancy/raw/main/RF-head.png&#34; alt=&#34;alternatetext&#34; style=&#34;width:70px;height:70px; border: 1px solid #ddd&#34;&gt;
+&lt;p&gt;My game ID is &lt;a href=https://namemc.com/skin/dc5a359c3c45d9a7 style=&#34;color:#285d93&#34;&gt;Runaway_Fancy&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;6gt-roof-builder&#34;&gt;6gt Roof Builder&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/QKKCzDSV3Iw&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;chorus-flower-farm&#34;&gt;Chorus Flower Farm&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/8iRyChpy770&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;how-to-use-a-statistical-method-to-analyze-random-tick-in-minecraft-and-its-application&#34;&gt;How to Use a Statistical Method to Analyze Random Tick in Minecraft and Its Application&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LntSZjunXhA&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h2 id=&#34;editing&#34;&gt;Editing&lt;/h2&gt;
+&lt;p&gt;Most of my editing project are shown above. Adobe After Effect, Adobe Premiere Pro, and Blender are often used in my editing products. One of my video was selected and presented in a famous editing collection.&lt;/p&gt;
+&lt;h3 id=&#34;time-gear---rems-nether-lobby&#34;&gt;:Time Gear - REMS Nether Lobby&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LPZ8yxA21hk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;redzs-editting-collection&#34;&gt;Redz&amp;rsquo;s Editting Collection&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/S0-vr6c5JC4&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;hr&gt;
+</description>
     </item>
     
     <item>
-      <title>Minecraft, Redstone, and Editing</title>
-      <link>http://runawayfancy.me/miscellany/redstone_tech/</link>
-      <pubDate>Mon, 04 Jul 2022 02:53:19 +0800</pubDate>
-      
-      <guid>http://runawayfancy.me/miscellany/redstone_tech/</guid>
-      <description>Redstone Tech Redstone is one of the most creative and sophisticated areas in Minecraft. Player used redstone objects like piston, repeater, observer combined with slime and honey block built up logical circuits and various machineries.
-About Me My game ID is Runaway_Fancy.
-6gt Roof Builder Chorus Flower Farm How to Use a Statistical Method to Analyze Random Tick in Minecraft and Its Application Our Redstone-tech Server I launched a survival multiple player (SMP) server focusing on redstone technology under game version 1.</description>
+      <title>Notes</title>
+      <link>https://example.com/blog/notes/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/blog/notes/</guid>
+      <description>&lt;blockquote&gt;
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+&lt;p&gt;I collected and summarized several notes from physics and mathematics courses during my undergraduate learning period. Most of them are referred to famous textbooks and lecture notes of online open courses. Unfortunately, &lt;strong&gt;most of the notes are handwritten&lt;/strong&gt; and maybe I will rebuild them into $\LaTeX$ versions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;selected-topics&#34;&gt;Selected topics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;directsuper-exchange-interaction-and-iswap-gating&#34;&gt;Direct/Super exchange interaction and ISWAP gating&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/files/notes/SE-interaction%20And%20Iswap%20Gate.pdf&#34; style=&#34;color:#285d93&#34;&gt; SE-Interaction and ISWAP gate &lt;/a&gt; (Last Update 12/9/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;displaced-fock-state&#34;&gt;Displaced Fock State&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/files/notes/Displaced%20Number%20State.pdf&#34; style=&#34;color:#285d93&#34;&gt; Displaced Fock State &lt;/a&gt; (Last Update 12/9/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;quantum-optics&#34;&gt;Quantum Optics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/files/notes/Quantum%20Optics%20Notes.pdf&#34; style=&#34;color:#285d93&#34;&gt; Introduction to Quantum Optics &lt;/a&gt; (Last Update 12/9/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;amo-physics&#34;&gt;AMO physics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/files/notes/Atomic%20Optics.pdf&#34; style=&#34;color:#285d93&#34;&gt; Atomic Optics &lt;/a&gt; (Last Update 12/9/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;classical-mechanics&#34;&gt;Classical Mechanics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;spum101&#34;&gt;SPUM101&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L1.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 1 &lt;/a&gt;: Hamilton principle, Lagrangian Mechanics.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L2.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 2 &lt;/a&gt;: Conservation Law, momentum.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L3.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 3 &lt;/a&gt;: Integration of the equation of motion, angular momentum.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L4.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 4 &lt;/a&gt;: Small oscillation, harmonic approximation, Forced oscillation, damped oscillation.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L5.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 5 &lt;/a&gt;: Forced oscillation under frictions, dissipative function.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L6.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 6 &lt;/a&gt;: Rigid body dynamics, rotating frame.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L7.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 7 &lt;/a&gt;: Gauge invariance of Lagrangian, Hamiltonian mechanics.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L8.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 8 &lt;/a&gt;: From Hamiltonian mechanics to classical statistical mechanics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;the-variational-principle-of-mechanics&#34;&gt;The Variational Principle of Mechanics&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%201.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_1 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%202&amp;3.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_2&amp;amp;3 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%204.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_4 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%205.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_5 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%206.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_6 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%207.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_7 &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;classical-electrodynamics&#34;&gt;Classical Electrodynamics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/EM/EM.pdf&#34; style=&#34;color:#285d93&#34;&gt; EM_notes &lt;/a&gt; (&lt;strong&gt;277 MB&lt;/strong&gt;, Last Update 8/9/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;quantum-mechanics&#34;&gt;Quantum Mechanics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;quantum-mecahnics-i&#34;&gt;Quantum Mecahnics I&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/QM/Quantum%20Mechanics%20notes%201.pdf&#34; style=&#34;color:#285d93&#34;&gt; QM_I_1 &lt;/a&gt;: Fundamental principles.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/QM/Quantum%20Mechanics%20notes%202.pdf&#34; style=&#34;color:#285d93&#34;&gt; QM_I_2 &lt;/a&gt;: Fundamental principles, quantum dynamics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;quantum-mechanics-ii&#34;&gt;Quantum Mechanics II&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/QM/QM2.pdf&#34; style=&#34;color:#285d93&#34;&gt; QM_II &lt;/a&gt;: Quantum dynamics, angular momentum. (&lt;strong&gt;176 MB&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;quantum-mechanics-iii&#34;&gt;Quantum Mechanics III&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/QM/QM3.pdf&#34; style=&#34;color:#285d93&#34;&gt; QM_III &lt;/a&gt;: Applications, approximation methods, scattering. (&lt;strong&gt;395 MB&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;abstract-algebra&#34;&gt;Abstract Algebra&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/AA/AA.pdf&#34; style=&#34;color:#285d93&#34;&gt; AA_notes &lt;/a&gt; (&lt;strong&gt;29.9 MB&lt;/strong&gt;, Last Update 5/10/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;mathematical-methods-in-physics&#34;&gt;Mathematical Methods in Physics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;tbc.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;thermodynamics-and-statistical-mechanics&#34;&gt;Thermodynamics and Statistical Mechanics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;tbc.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;solid-state-physics&#34;&gt;Solid State Physics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;tbc.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
     </item>
     
     <item>
-      <title>Miscellany</title>
-      <link>http://runawayfancy.me/miscellany/</link>
-      <pubDate>Mon, 04 Jul 2022 02:53:19 +0800</pubDate>
-      
-      <guid>http://runawayfancy.me/miscellany/</guid>
-      <description>Seminar of Physics in UMThe seminar of Physics in the University of Macau was held by Yichen LUI and me in March, 2022. We aimed at enhancing the basic and advanced topics of fundamental physics and mathematics.Minecraft, Redstone and EditingI&#39;m a redstone technological Minecraft player focusing on mechanical design and game mechanism which are helpful in survival mode. Some showcase videos are edited for presentations.</description>
+      <title>Our Minecraft Server</title>
+      <link>https://example.com/miscellany/rems/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/miscellany/rems/</guid>
+      <description>&lt;h2 id=&#34;about-rems&#34;&gt;About REMS&lt;/h2&gt;
+&lt;p&gt;I launched a survival multiple player (SMP) server focusing on redstone technology under game version 1.15.2 and above. We got a huge success in the application of light-update suppression in mob farms, especially in setting up light-update suppressors and update suppressors for building such farms. We also have wonderful players who built awesome buildings and architecture. Moreover, several mini-game like ultra-hardcore (UHC) survival was held for entertainment.&lt;/p&gt;
+&lt;h3 id=&#34;promotion&#34;&gt;Promotion&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/nP8mhXdi9MA&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;end-of-light-2-dimensional-mob-farm&#34;&gt;End-of-light 2-dimensional Mob-farm&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/cvWhfQYqORU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;nether-lobby&#34;&gt;Nether Lobby&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/LPZ8yxA21hk&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h3 id=&#34;dragon-killer&#34;&gt;Dragon Killer&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//player.bilibili.com/player.html?aid=711215798&amp;bvid=BV1wD4y1S7NJ&amp;cid=206117301&amp;page=1&amp;autoplay=0&#34;; scrolling=&#34;yes&#34;; border=&#34;0&#34;; frameborder=&#34;0&#34;; framespacing=&#34;0&#34;; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;h3 id=&#34;pearl-cannon&#34;&gt;Pearl Cannon&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//player.bilibili.com/player.html?aid=755529039&amp;bvid=BV1N64y1f7En&amp;cid=266055817&amp;page=1&amp;autoplay=0&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;h3 id=&#34;auto-color-switching-sand-duper&#34;&gt;Auto Color Switching Sand Duper&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//player.bilibili.com/player.html?aid=416267969&amp;bvid=BV1VV411b7ir&amp;cid=330625987&amp;page=1&amp;autoplay=0&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;h3 id=&#34;jungle-town&#34;&gt;Jungle Town&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//player.bilibili.com/player.html?aid=358171533&amp;bvid=BV1MX4y1e7k9&amp;cid=1189658100&amp;page=1&amp;autoplay=0&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;h3 id=&#34;lunar-new-year-uhc-ultra-hardcore&#34;&gt;Lunar New Year UHC (ultra-hardcore)&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//player.bilibili.com/player.html?aid=381221546&amp;bvid=BV1CZ4y1d7Da&amp;cid=499082283&amp;page=1&amp;autoplay=0&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;h3 id=&#34;119-speed-run-event&#34;&gt;1.19 Speed-run Event&lt;/h3&gt;
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;//player.bilibili.com/player.html?aid=853254171&amp;bvid=BV1sL4y1L7Tv&amp;cid=577682219&amp;page=1&amp;autoplay=0&#34; scrolling=&#34;no&#34; border=&#34;0&#34; frameborder=&#34;no&#34; framespacing=&#34;0&#34; allowfullscreen=&#34;true&#34;&gt; &lt;/iframe&gt;
+&lt;hr&gt;
+</description>
     </item>
     
     <item>
-      <title>Notes and Presentations</title>
-      <link>http://runawayfancy.me/notes/</link>
-      <pubDate>Mon, 04 Jul 2022 02:53:19 +0800</pubDate>
-      
-      <guid>http://runawayfancy.me/notes/</guid>
-      <description>About I collected and summarized several notes from physics and mathematics courses during my undergraduate learning period. Most of them are referred to famous textbooks and lecture notes of online open courses. Unfortunately, most of the notes are handwritten and maybe I will rebuild them into $\LaTeX$ versions.
-Selected topics Direct/Super exchange interaction and ISWAP gating SE-Interaction and ISWAP gate (Last Update 12/9/2022)
-Displaced Fock State Displaced Fock State (Last Update 12/9/2022)</description>
+      <title>Seminar of Physics at University of Macau</title>
+      <link>https://example.com/miscellany/spum/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/miscellany/spum/</guid>
+      <description>&lt;h2 id=&#34;about-spum&#34;&gt;About SPUM&lt;/h2&gt;
+&lt;p&gt;The seminar on physics at the University of Macau (SPUM), founded by &lt;a href=&#34;https://cheysen.fit/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yichen Liu&lt;/a&gt; and &lt;a href=&#34;https://runawayfancy.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Jiheng Duan&lt;/a&gt;, aims at improving the education of fundamental and advanced physics and mathematics. Students who have strong and wide knowledge in a specific area can admit to being a lecturer. Our organization is unofficial therefore we only invite students who have interests and talents in physics and mathematics study and research. Students are required to have a strong basis in calculus, linear algebra, and differential equations (ordinary and partial).&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-yicheng-liu&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Yicheng Liu&#34; srcset=&#34;
+               /media/SPUM_chisen_hu6863354017cbd193d95c7773b897a457_141203_4a1b85a8d9fb06e9c3d2647808c07bad.webp 400w,
+               /media/SPUM_chisen_hu6863354017cbd193d95c7773b897a457_141203_dd532d7e75bd241240428723ee4d355c.webp 760w,
+               /media/SPUM_chisen_hu6863354017cbd193d95c7773b897a457_141203_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/SPUM_chisen_hu6863354017cbd193d95c7773b897a457_141203_4a1b85a8d9fb06e9c3d2647808c07bad.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;428&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Yicheng Liu
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-jiheng-duan&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Jiheng Duan&#34; srcset=&#34;
+               /media/SPUM_gigi_hu8f247dc7b2ed912aa7dfae59c851bfd4_1765200_c632eda46bedd84399320592923813c2.webp 400w,
+               /media/SPUM_gigi_hu8f247dc7b2ed912aa7dfae59c851bfd4_1765200_dab4eeb384cefc5f2beda64dc58209fe.webp 760w,
+               /media/SPUM_gigi_hu8f247dc7b2ed912aa7dfae59c851bfd4_1765200_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
+               src=&#34;https://example.com/media/SPUM_gigi_hu8f247dc7b2ed912aa7dfae59c851bfd4_1765200_c632eda46bedd84399320592923813c2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;437&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      Jiheng Duan
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+&lt;h2 id=&#34;course-list&#34;&gt;Course List&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;preliminary-cs&#34;&gt;Preliminary CS&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;SPUM100 Computer Tools (2022 spring)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;mathematics&#34;&gt;Mathematics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;SPUM102 Complex Analysis (2022 spring)&lt;/li&gt;
+&lt;li&gt;SPUM201 Review of Linear Algebra (2022 fall)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;physics&#34;&gt;Physics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;SPUM101 Classical Mechanics (2022 spring)&lt;/li&gt;
+&lt;li&gt;SPUM202 Selected Topics in Quantum Mechanics (2022 fall)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;recorded-lectures-and-notes&#34;&gt;Recorded Lectures and Notes&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;spum100-computer-tools-2022-spring&#34;&gt;SPUM100 Computer Tools (2022 spring)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;lecture-notes-matlab-python-markdownhttpsgithubcomrunawayfancyspum-pre-course-computer-tools&#34;&gt;Lecture Notes: &lt;a href=&#34;https://github.com/RunawayFancy/SPUM-pre-course-computer-tools&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MATLAB, Python, Markdown&lt;/a&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;spum102-complex-analysis-2022-spring&#34;&gt;SPUM102 Complex Analysis (2022 spring)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;lecture-notes-via-chysenhttpsgithubcomchisen-lupusseminar-of-physics-um&#34;&gt;Lecture Notes: &lt;a href=&#34;https://github.com/Chisen-Lupus/Seminar-of-Physics-UM&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Via Chysen&lt;/a&gt;&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;spum201-review-of-linear-algebra-2022-fall&#34;&gt;SPUM201 Review of Linear Algebra (2022 fall)&lt;/h3&gt;
+&lt;h3 id=&#34;spum101-classical-mechanics-2022-spring&#34;&gt;SPUM101 Classical Mechanics (2022 spring)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;lecture-notes&#34;&gt;Lecture Notes:&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM101/SPUM101_L1.pdf&#34;&gt;Lecture Notes 1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM101/SPUM101_L2.pdf&#34;&gt;Lecture Notes 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM101/SPUM101_L3.pdf&#34;&gt;Lecture Notes 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM101/SPUM101_L4.pdf&#34;&gt;Lecture Notes 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM101/SPUM101_L5.pdf&#34;&gt;Lecture Notes 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM101/SPUM101_L6.pdf&#34;&gt;Lecture Notes 6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM101/SPUM101_L7.pdf&#34;&gt;Lecture Notes 7&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM101/SPUM101_L7.pdf&#34;&gt;Lecture Notes 8&lt;/a&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;h3 id=&#34;spum202-selected-topics-in-quantum-mechanics-2022-fall&#34;&gt;SPUM202 Selected Topics in Quantum Mechanics (2022 fall)&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;recorded-lectures-youtube-play-listhttpsyoutubecomplaylistlistpllz_h3pbdwwykalv8ie80qdei-yal87ue&#34;&gt;Recorded Lectures: &lt;a href=&#34;https://youtube.com/playlist?list=PLLZ_h3pbDwwYKaLV8Ie80qDei-YaL87Ue&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Youtube Play List&lt;/a&gt;&lt;/h4&gt;
+&lt;h4 id=&#34;lecture-notes-1&#34;&gt;Lecture Notes:&lt;/h4&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM202/SPUM202_Lecture2.pdf&#34;&gt;Lecture Notes 2&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM202/SPUM202_Lecture3.pdf&#34;&gt;Lecture Notes 3&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM202/SPUM202_Lecture4.pdf&#34;&gt;Lecture Notes 4&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM202/SPUM202_Lecture5.pdf&#34;&gt;Lecture Notes 5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM202/SPUM202_Lecture6.pdf&#34;&gt;Lecture Notes 6&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://example.com/uploads/SPUM202/SPUM202_Lecture7.pdf&#34;&gt;Lecture Notes 7&lt;/a&gt;&lt;/p&gt;
+&lt;hr&gt;
+</description>
     </item>
     
     <item>
-      <title>Research</title>
-      <link>http://runawayfancy.me/research/</link>
-      <pubDate>Mon, 04 Jul 2022 02:53:19 +0800</pubDate>
-      
-      <guid>http://runawayfancy.me/research/</guid>
-      <description>Quantum Physics A quantum algorithm for collision inducing disturbance vectors in SHA-1( arXiv:2210.12762 ) Advisor: Prof. Hou IAN
-Oct. 2021 - Oct. 2022
-Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols.</description>
+      <title>Exploring Flux Pulse Predistortion Methods</title>
+      <link>https://example.com/research/predistortion/</link>
+      <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/predistortion/</guid>
+      <description>&lt;p&gt;Flux tunable superconducting quantum interference devices (SQUID) are widely applied in today superconducting qubit architectures, e.g., flux qubit, tunable transmon, tunable coupler. The flux control requires sending flux pulses with desired waveform to bias the flux inside the SQUID loop. But many devices and imperfections can distort the waveform, inducing undesired flux fluctuations. Such waveform distortions will cause inaccurate frequency biasing or frequency damping, which leads to phase errors accumulation of a qubit (or coupler) and decrease the fidelity of qubit Z-control (e.g., iSWAP gate and CZ gate).&lt;/p&gt;
+&lt;p&gt;The distortions comes from many sources: &lt;strong&gt;analog filters&lt;/strong&gt; (e.g., low-pass filter, high-pass filter), &lt;strong&gt;Bias-Tee&lt;/strong&gt;, &lt;strong&gt;AWG&lt;/strong&gt;, &lt;strong&gt;junction points on the transmission line&lt;/strong&gt; (causing transmission and reflection of the EM wave), &lt;strong&gt;skin effect&lt;/strong&gt;, &lt;strong&gt;on-chip resonance&lt;/strong&gt;, etc.&lt;/p&gt;
+&lt;p&gt;We aim at exploring new techniques of combining reinforcement learning with digital inverse filtering methods (inverse IIR, and FIR filters), to effective and fast calibrate and fix the distortions. The predistortion method uses inversed digital filters, calibrated by the transient analysis of each components contributing distortions, to predistort the flux pulse inside the AWG, and all distortions can be countered.&lt;/p&gt;
+&lt;p&gt;This technique will be widely applied in future, and we are currently developing the inverse filter calibration code and the reinforcement learning model.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Seminar on Physics at the University of Macau</title>
-      <link>http://runawayfancy.me/miscellany/seminar_um/</link>
-      <pubDate>Mon, 04 Jul 2022 02:53:19 +0800</pubDate>
-      
-      <guid>http://runawayfancy.me/miscellany/seminar_um/</guid>
-      <description>About The seminar on physics at the University of Macau (SPUM), founded by Yichen Liu and Jiheng Duan, aims at improving the education of fundamental and advanced physics and mathematics. Students who have strong and wide knowledge in a specific area can admit to being a lecturer. Our organization is unofficial therefore we only invite students who have interests and talents in physics and mathematics study and research. Students are required to have a strong basis in calculus, linear algebra, and differential equations (ordinary and partial).</description>
+      <title>A Quantum Algorithm for Finding Collision-inducing Disturbance Vectors in SHA-1</title>
+      <link>https://example.com/research/qa_sha-1/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/qa_sha-1/</guid>
+      <description>&lt;p&gt;Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols. We propose an algorithm that takes advantage of entangled quantum states for concurrent seeding of candidate disturbance vectors, out of which the one entailing collision is selected through a combination of quantum search, phase gating, diffusion gating, and information feedbacks from classical computing machinery. The complexity reduction is shown to be on the order of $O(2^{n/2+1})$ where n is the number of qubits encoding addresses. We demonstrate the practicality of the proposed by an implementation scheme based on degenerate optical parametric oscillators.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-quantum-circuit-of-our-proposed-collision-searching-quantum-algorithm-and-the-experiment-setup-based-on-classical-entanglement-of-degenerate-optical-parametric-oscillators&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The quantum circuit of our proposed collision searching quantum algorithm and the experiment setup based on classical entanglement of degenerate optical parametric oscillators.&#34; srcset=&#34;
+               /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_4ba4b5d48ca59f7cc72d887dee9a4627.webp 400w,
+               /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_569b43b2484617a8f30c22cabd6b1a92.webp 760w,
+               /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_4ba4b5d48ca59f7cc72d887dee9a4627.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;205&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      The quantum circuit of our proposed collision searching quantum algorithm and the experiment setup based on classical entanglement of degenerate optical parametric oscillators.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring Optimization Techniques for Large-scale Problems</title>
+      <link>https://example.com/research/sa_maxcut/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/sa_maxcut/</guid>
+      <description>&lt;p&gt;My final year research project at department of Physics and Chemistry, University of Macau. We review using simulated annealing and quantum annealing algorithms to minimize the Hamiltonian of an Ising spin glass model to solve a corresponding MAX-CUT problem. We compared the efficiency between homogeneous and inhomogeneous simulated annealing based on the logarithm annealing schedule.&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Simulated Annealing (SA) is a heuristic algorithm that has been widely used to solve optimization problems over the past four decades. In this article, we provide an overview of SA, including its origins, properties, relationship with statistical mechanics, and controlled parameters. We also present a practical application of SA to optimize a 2000-nodes system using the Ising model. Additionally, we introduce an advanced algorithm derived from SA, known as Quantum Annealing (QA). We explain the theory behind SA and provide an introduction to the background of the Coherent Ising Machine (CIM), which serves as a specific example of SA&amp;rsquo;s application. In the future works section, we discuss QA and Adiabatic Quantum Computation (AQC) as a brief review and introduction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://example.com/admin/config.yml</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/admin/config.yml</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the Phase Controlled Qubit State Measurement Using Analog Microwave Phase Shifter</title>
+      <link>https://example.com/research/phase_shifter/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/phase_shifter/</guid>
+      <description>&lt;p&gt;Superconducting quantum circuits are the most popular solid-state system used to implement quantum computation. Their computational units, the superconducting qubits, are micro-fabricated on substrates using thin-film deposition techniques similar to typical integrated circuits. The control and measurements of these qubits rely on waveguides microwave fields with techniques similar to those for millimeter-wave analog circuitry, where the output signal phase relative to the input plays a crucial role in determining the quantum state. A controllable phase to align the carrier and the amplitude envelope thus becomes essential. In this work, we implement a microwave phase shifter with 1 GHz bandwidth about the 4.75 GHz center frequency in conjunction with standard microwave equipment to measure a qubit.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-traditional-signal-modulation-and-phase-shifted-modulation-setup-shown-in-a-and-b-respectively-the-experimental-setup-design-layout-and-effective-circuit-of-the-phase-comparator-are-shown-in-this-figure&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The traditional signal modulation and phase shifted modulation setup shown in (a) and (b), respectively. The experimental setup, design layout, and effective circuit of the phase comparator are shown in this figure.&#34; srcset=&#34;
+               /media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_0334b40e87b38c6948403064ccfe04fc.webp 400w,
+               /media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_4a4da719a831298082d58a66c19c7844.webp 760w,
+               /media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_0334b40e87b38c6948403064ccfe04fc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;621&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      The traditional signal modulation and phase shifted modulation setup shown in (a) and (b), respectively. The experimental setup, design layout, and effective circuit of the phase comparator are shown in this figure.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+</description>
     </item>
     
   </channel>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Quantum Algorithm | Academic</title>
+    <link>https://example.com/tag/quantum-algorithm/</link>
+      <atom:link href="https://example.com/tag/quantum-algorithm/index.xml" rel="self" type="application/rss+xml" />
+    <description>Quantum Algorithm</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 27 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <title>Quantum Algorithm</title>
+      <link>https://example.com/tag/quantum-algorithm/</link>
+    </image>
+    
+    <item>
+      <title>A Quantum Algorithm for Finding Collision-inducing Disturbance Vectors in SHA-1</title>
+      <link>https://example.com/research/qa_sha-1/</link>
+      <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/qa_sha-1/</guid>
+      <description>&lt;p&gt;Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols. We propose an algorithm that takes advantage of entangled quantum states for concurrent seeding of candidate disturbance vectors, out of which the one entailing collision is selected through a combination of quantum search, phase gating, diffusion gating, and information feedbacks from classical computing machinery. The complexity reduction is shown to be on the order of $O(2^{n/2+1})$ where n is the number of qubits encoding addresses. We demonstrate the practicality of the proposed by an implementation scheme based on degenerate optical parametric oscillators.&lt;/p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  id=&#34;figure-the-quantum-circuit-of-our-proposed-collision-searching-quantum-algorithm-and-the-experiment-setup-based-on-classical-entanglement-of-degenerate-optical-parametric-oscillators&#34;&gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;The quantum circuit of our proposed collision searching quantum algorithm and the experiment setup based on classical entanglement of degenerate optical parametric oscillators.&#34; srcset=&#34;
+               /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_4ba4b5d48ca59f7cc72d887dee9a4627.webp 400w,
+               /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_569b43b2484617a8f30c22cabd6b1a92.webp 760w,
+               /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_4ba4b5d48ca59f7cc72d887dee9a4627.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;205&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;figcaption data-pre=&#34;Figure&amp;nbsp;&#34; data-post=&#34;:&amp;nbsp;&#34; class=&#34;numbered&#34;&gt;
+      The quantum circuit of our proposed collision searching quantum algorithm and the experiment setup based on classical entanglement of degenerate optical parametric oscillators.
+    &lt;/figcaption&gt;&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

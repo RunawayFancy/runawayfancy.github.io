@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Other | Academic</title>
+    <link>https://example.com/tag/other/</link>
+      <atom:link href="https://example.com/tag/other/index.xml" rel="self" type="application/rss+xml" />
+    <description>Other</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 01 Aug 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <title>Other</title>
+      <link>https://example.com/tag/other/</link>
+    </image>
+    
+    <item>
+      <title>Exploring Optimization Techniques for Large-scale Problems</title>
+      <link>https://example.com/research/sa_maxcut/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      <guid>https://example.com/research/sa_maxcut/</guid>
+      <description>&lt;p&gt;My final year research project at department of Physics and Chemistry, University of Macau. We review using simulated annealing and quantum annealing algorithms to minimize the Hamiltonian of an Ising spin glass model to solve a corresponding MAX-CUT problem. We compared the efficiency between homogeneous and inhomogeneous simulated annealing based on the logarithm annealing schedule.&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Simulated Annealing (SA) is a heuristic algorithm that has been widely used to solve optimization problems over the past four decades. In this article, we provide an overview of SA, including its origins, properties, relationship with statistical mechanics, and controlled parameters. We also present a practical application of SA to optimize a 2000-nodes system using the Ising model. Additionally, we introduce an advanced algorithm derived from SA, known as Quantum Annealing (QA). We explain the theory behind SA and provide an introduction to the background of the Coherent Ising Machine (CIM), which serves as a specific example of SA&amp;rsquo;s application. In the future works section, we discuss QA and Adiabatic Quantum Computation (AQC) as a brief review and introduction.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
