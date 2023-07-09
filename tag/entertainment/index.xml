@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Entertainment | Academic</title>
-    <link>https://example.com/tag/entertainment/</link>
-      <atom:link href="https://example.com/tag/entertainment/index.xml" rel="self" type="application/rss+xml" />
+    <title>Entertainment | Jiheng Duan</title>
+    <link>https://runawayfancy.github.io/tag/entertainment/</link>
+      <atom:link href="https://runawayfancy.github.io/tag/entertainment/index.xml" rel="self" type="application/rss+xml" />
     <description>Entertainment</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
       <title>Entertainment</title>
-      <link>https://example.com/tag/entertainment/</link>
+      <link>https://runawayfancy.github.io/tag/entertainment/</link>
     </image>
     
     <item>
       <title>Minecraft and Editing</title>
-      <link>https://example.com/miscellany/editing/</link>
+      <link>https://runawayfancy.github.io/miscellany/editing/</link>
       <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/miscellany/editing/</guid>
+      <guid>https://runawayfancy.github.io/miscellany/editing/</guid>
       <description>&lt;h2 id=&#34;redstone-tech&#34;&gt;Redstone Tech&lt;/h2&gt;
 &lt;p&gt;Redstone is one of the most creative and sophisticated areas in Minecraft. Player used redstone objects like piston, repeater, observer combined with slime and honey block built up logical circuits and various machineries.&lt;/p&gt;
 &lt;h3 id=&#34;about-me&#34;&gt;About Me&lt;/h3&gt;
@@ -40,9 +40,9 @@
     
     <item>
       <title>Our Minecraft Server</title>
-      <link>https://example.com/miscellany/rems/</link>
+      <link>https://runawayfancy.github.io/miscellany/rems/</link>
       <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/miscellany/rems/</guid>
+      <guid>https://runawayfancy.github.io/miscellany/rems/</guid>
       <description>&lt;h2 id=&#34;about-rems&#34;&gt;About REMS&lt;/h2&gt;
 &lt;p&gt;I launched a survival multiple player (SMP) server focusing on redstone technology under game version 1.15.2 and above. We got a huge success in the application of light-update suppression in mob farms, especially in setting up light-update suppressors and update suppressors for building such farms. We also have wonderful players who built awesome buildings and architecture. Moreover, several mini-game like ultra-hardcore (UHC) survival was held for entertainment.&lt;/p&gt;
 &lt;h3 id=&#34;promotion&#34;&gt;Promotion&lt;/h3&gt;

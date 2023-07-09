@@ -2,93 +2,93 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://runawayfancy.github.io/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/academic/</loc>
+    <loc>https://runawayfancy.github.io/tag/academic/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/categories/</loc>
+    <loc>https://runawayfancy.github.io/categories/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/entertainment/</loc>
+    <loc>https://runawayfancy.github.io/tag/entertainment/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/miscellany/editing/</loc>
+    <loc>https://runawayfancy.github.io/miscellany/editing/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/category/miscellany/</loc>
+    <loc>https://runawayfancy.github.io/category/miscellany/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/miscellany/</loc>
+    <loc>https://runawayfancy.github.io/miscellany/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/category/note/</loc>
+    <loc>https://runawayfancy.github.io/category/note/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/blog/notes/</loc>
+    <loc>https://runawayfancy.github.io/blog/notes/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/miscellany/rems/</loc>
+    <loc>https://runawayfancy.github.io/miscellany/rems/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/blog/</loc>
+    <loc>https://runawayfancy.github.io/blog/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/miscellany/spum/</loc>
+    <loc>https://runawayfancy.github.io/miscellany/spum/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://runawayfancy.github.io/tags/</loc>
     <lastmod>2023-07-08T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/research/predistortion/</loc>
+    <loc>https://runawayfancy.github.io/research/predistortion/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/quantum-computing/</loc>
+    <loc>https://runawayfancy.github.io/tag/quantum-computing/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/research/</loc>
+    <loc>https://runawayfancy.github.io/research/</loc>
     <lastmod>2023-07-06T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/research/qa_sha-1/</loc>
+    <loc>https://runawayfancy.github.io/research/qa_sha-1/</loc>
     <lastmod>2022-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/quantum-algorithm/</loc>
+    <loc>https://runawayfancy.github.io/tag/quantum-algorithm/</loc>
     <lastmod>2022-10-27T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/research/sa_maxcut/</loc>
+    <loc>https://runawayfancy.github.io/research/sa_maxcut/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/tag/other/</loc>
+    <loc>https://runawayfancy.github.io/tag/other/</loc>
     <lastmod>2021-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/admin/</loc>
+    <loc>https://runawayfancy.github.io/admin/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/research/phase_shifter/</loc>
+    <loc>https://runawayfancy.github.io/research/phase_shifter/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://example.com/publication_types/</loc>
+    <loc>https://runawayfancy.github.io/publication_types/</loc>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

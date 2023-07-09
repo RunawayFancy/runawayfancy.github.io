@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Academic</title>
-    <link>https://example.com/blog/</link>
-      <atom:link href="https://example.com/blog/index.xml" rel="self" type="application/rss+xml" />
+    <title>Posts | Jiheng Duan</title>
+    <link>https://runawayfancy.github.io/blog/</link>
+      <atom:link href="https://runawayfancy.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>https://example.com/blog/</link>
+      <link>https://runawayfancy.github.io/blog/</link>
     </image>
     
     <item>
       <title>Notes</title>
-      <link>https://example.com/blog/notes/</link>
+      <link>https://runawayfancy.github.io/blog/notes/</link>
       <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/blog/notes/</guid>
+      <guid>https://runawayfancy.github.io/blog/notes/</guid>
       <description>&lt;blockquote&gt;
 &lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
 &lt;p&gt;I collected and summarized several notes from physics and mathematics courses during my undergraduate learning period. Most of them are referred to famous textbooks and lecture notes of online open courses. Unfortunately, &lt;strong&gt;most of the notes are handwritten&lt;/strong&gt; and maybe I will rebuild them into $\LaTeX$ versions.&lt;/p&gt;

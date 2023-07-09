@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Researches | Academic</title>
-    <link>https://example.com/research/</link>
-      <atom:link href="https://example.com/research/index.xml" rel="self" type="application/rss+xml" />
+    <title>Researches | Jiheng Duan</title>
+    <link>https://runawayfancy.github.io/research/</link>
+      <atom:link href="https://runawayfancy.github.io/research/index.xml" rel="self" type="application/rss+xml" />
     <description>Researches</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
       <title>Researches</title>
-      <link>https://example.com/research/</link>
+      <link>https://runawayfancy.github.io/research/</link>
     </image>
     
     <item>
       <title>Exploring Flux Pulse Predistortion Methods</title>
-      <link>https://example.com/research/predistortion/</link>
+      <link>https://runawayfancy.github.io/research/predistortion/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/research/predistortion/</guid>
+      <guid>https://runawayfancy.github.io/research/predistortion/</guid>
       <description>&lt;p&gt;Flux tunable superconducting quantum interference devices (SQUID) are widely applied in today superconducting qubit architectures, e.g., flux qubit, tunable transmon, tunable coupler. The flux control requires sending flux pulses with desired waveform to bias the flux inside the SQUID loop. But many devices and imperfections can distort the waveform, inducing undesired flux fluctuations. Such waveform distortions will cause inaccurate frequency biasing or frequency damping, which leads to phase errors accumulation of a qubit (or coupler) and decrease the fidelity of qubit Z-control (e.g., iSWAP gate and CZ gate).&lt;/p&gt;
 &lt;p&gt;The distortions comes from many sources: &lt;strong&gt;analog filters&lt;/strong&gt; (e.g., low-pass filter, high-pass filter), &lt;strong&gt;Bias-Tee&lt;/strong&gt;, &lt;strong&gt;AWG&lt;/strong&gt;, &lt;strong&gt;junction points on the transmission line&lt;/strong&gt; (causing transmission and reflection of the EM wave), &lt;strong&gt;skin effect&lt;/strong&gt;, &lt;strong&gt;on-chip resonance&lt;/strong&gt;, etc.&lt;/p&gt;
 &lt;p&gt;We aim at exploring new techniques of combining reinforcement learning with digital inverse filtering methods (inverse IIR, and FIR filters), to effective and fast calibrate and fix the distortions. The predistortion method uses inversed digital filters, calibrated by the transient analysis of each components contributing distortions, to predistort the flux pulse inside the AWG, and all distortions can be countered.&lt;/p&gt;
@@ -26,9 +26,9 @@
     
     <item>
       <title>A Quantum Algorithm for Finding Collision-inducing Disturbance Vectors in SHA-1</title>
-      <link>https://example.com/research/qa_sha-1/</link>
+      <link>https://runawayfancy.github.io/research/qa_sha-1/</link>
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>https://example.com/research/qa_sha-1/</guid>
+      <guid>https://runawayfancy.github.io/research/qa_sha-1/</guid>
       <description>&lt;p&gt;Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols. We propose an algorithm that takes advantage of entangled quantum states for concurrent seeding of candidate disturbance vectors, out of which the one entailing collision is selected through a combination of quantum search, phase gating, diffusion gating, and information feedbacks from classical computing machinery. The complexity reduction is shown to be on the order of $O(2^{n/2+1})$ where n is the number of qubits encoding addresses. We demonstrate the practicality of the proposed by an implementation scheme based on degenerate optical parametric oscillators.&lt;/p&gt;
 
 
@@ -54,7 +54,7 @@
                /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_4ba4b5d48ca59f7cc72d887dee9a4627.webp 400w,
                /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_569b43b2484617a8f30c22cabd6b1a92.webp 760w,
                /media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://example.com/media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_4ba4b5d48ca59f7cc72d887dee9a4627.webp&#34;
+               src=&#34;https://runawayfancy.github.io/media/SHA-1_huf5b9ffa204e5b9a633e0d76f873157b3_797076_4ba4b5d48ca59f7cc72d887dee9a4627.webp&#34;
                width=&#34;760&#34;
                height=&#34;205&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -67,9 +67,9 @@
     
     <item>
       <title>Exploring Optimization Techniques for Large-scale Problems</title>
-      <link>https://example.com/research/sa_maxcut/</link>
+      <link>https://runawayfancy.github.io/research/sa_maxcut/</link>
       <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
-      <guid>https://example.com/research/sa_maxcut/</guid>
+      <guid>https://runawayfancy.github.io/research/sa_maxcut/</guid>
       <description>&lt;p&gt;My final year research project at department of Physics and Chemistry, University of Macau. We review using simulated annealing and quantum annealing algorithms to minimize the Hamiltonian of an Ising spin glass model to solve a corresponding MAX-CUT problem. We compared the efficiency between homogeneous and inhomogeneous simulated annealing based on the logarithm annealing schedule.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Simulated Annealing (SA) is a heuristic algorithm that has been widely used to solve optimization problems over the past four decades. In this article, we provide an overview of SA, including its origins, properties, relationship with statistical mechanics, and controlled parameters. We also present a practical application of SA to optimize a 2000-nodes system using the Ising model. Additionally, we introduce an advanced algorithm derived from SA, known as Quantum Annealing (QA). We explain the theory behind SA and provide an introduction to the background of the Coherent Ising Machine (CIM), which serves as a specific example of SA&amp;rsquo;s application. In the future works section, we discuss QA and Adiabatic Quantum Computation (AQC) as a brief review and introduction.&lt;/p&gt;
@@ -78,9 +78,9 @@
     
     <item>
       <title>On the Phase Controlled Qubit State Measurement Using Analog Microwave Phase Shifter</title>
-      <link>https://example.com/research/phase_shifter/</link>
+      <link>https://runawayfancy.github.io/research/phase_shifter/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://example.com/research/phase_shifter/</guid>
+      <guid>https://runawayfancy.github.io/research/phase_shifter/</guid>
       <description>&lt;p&gt;Superconducting quantum circuits are the most popular solid-state system used to implement quantum computation. Their computational units, the superconducting qubits, are micro-fabricated on substrates using thin-film deposition techniques similar to typical integrated circuits. The control and measurements of these qubits rely on waveguides microwave fields with techniques similar to those for millimeter-wave analog circuitry, where the output signal phase relative to the input plays a crucial role in determining the quantum state. A controllable phase to align the carrier and the amplitude envelope thus becomes essential. In this work, we implement a microwave phase shifter with 1 GHz bandwidth about the 4.75 GHz center frequency in conjunction with standard microwave equipment to measure a qubit.&lt;/p&gt;
 
 
@@ -106,7 +106,7 @@
                /media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_0334b40e87b38c6948403064ccfe04fc.webp 400w,
                /media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_4a4da719a831298082d58a66c19c7844.webp 760w,
                /media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;https://example.com/media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_0334b40e87b38c6948403064ccfe04fc.webp&#34;
+               src=&#34;https://runawayfancy.github.io/media/phase_shifter_hu5cd67629b6bb05df7f618747716ff656_664357_0334b40e87b38c6948403064ccfe04fc.webp&#34;
                width=&#34;760&#34;
                height=&#34;621&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
