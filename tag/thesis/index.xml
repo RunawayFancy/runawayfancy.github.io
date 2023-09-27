@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thesis | Jiheng Duan</title>
+    <link>https://runawayfancy.github.io/tag/thesis/</link>
+      <atom:link href="https://runawayfancy.github.io/tag/thesis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Thesis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <title>Thesis</title>
+      <link>https://runawayfancy.github.io/tag/thesis/</link>
+    </image>
+    
+    <item>
+      <title>Thesis</title>
+      <link>https://runawayfancy.github.io/blog/thesis/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/thesis/</guid>
+      <description>&lt;h2 id=&#34;predistortion-guideline-in-quantum-engineering&#34;&gt;Predistortion Guideline in Quantum Engineering&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1K_Rt9zQyzGvXlzYeh0557zEvDumGg16o/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Predistortion Guideline in Quantum Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;calibration-and-readout-of-a-single-superconducting-transmon-qubit&#34;&gt;Calibration and Readout of a Single Superconducting Transmon Qubit&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Remarks: this is theh final term paper of course APAC3003 &amp;ldquo;Material Characterization&amp;rdquo; at the University of Macau&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1aCsNaGDdRwnpMA4cx1pY8hFUJDNGcxyh/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Calibration and Readout of a Single Superconducting Transmon Qubit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;review-of-quantum-magnetic-field-sensor-using-solid-spin-qubit&#34;&gt;Review of Quantum Magnetic Field Sensor Using Solid Spin qubit&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Remarks: this is theh final term paper of course APAC4005 &amp;ldquo;Micro-Nano system&amp;rdquo; at the University of Macau&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1TFQGA47VQ1KeT7GET_YE4LlpvGZEQcV-/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Review of Quantum Magnetic Field Sensor Using Solid Spin qubit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

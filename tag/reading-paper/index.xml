@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reading Paper | Jiheng Duan</title>
+    <link>https://runawayfancy.github.io/tag/reading-paper/</link>
+      <atom:link href="https://runawayfancy.github.io/tag/reading-paper/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reading Paper</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 03 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <title>Reading Paper</title>
+      <link>https://runawayfancy.github.io/tag/reading-paper/</link>
+    </image>
+    
+    <item>
+      <title>Reading Paper 20230903</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/</link>
+      <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/</guid>
+      <description>&lt;h1 id=&#34;cherent-manipulation-of-coupled-electron-spins-in-semiconductor-quantum-dots&#34;&gt;Cherent Manipulation of Coupled Electron Spins in Semiconductor Quantum Dots&lt;/h1&gt;
+&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 09/03/2023&lt;/p&gt;
+&lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DOI: 10.1126/science.111.6955&lt;/li&gt;
+&lt;li&gt;Date: 30, Sept., 2005&lt;/li&gt;
+&lt;li&gt;Author: J. R. Petta, A. C. Johnson, J. M. Taylor, E. A. Laird, A. Yacoby, M. D. Lukin, C. M. Marcis, M. P. Hanson, A. C. Gossard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using electrons as qubits in semiconductor devices to encode information.&lt;/li&gt;
+&lt;li&gt;Achieve qubit initialization, measurement, coherent control ($\sqrt{\text{SWAP}}$ gate)&lt;/li&gt;
+&lt;li&gt;Characterizing $T_1$ and $T_2$.&lt;/li&gt;
+&lt;li&gt;Analyzing decoherence sources.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;spin-manipulation-and-measurement&#34;&gt;Spin manipulation and measurement&lt;/h2&gt;
+&lt;h4 id=&#34;devices-infor&#34;&gt;Devices infor&lt;/h4&gt;
+&lt;p&gt;See Fig.1.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Material&lt;/strong&gt;: GaAs/AlGaAs (small electron effective mass).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fabrication&lt;/strong&gt;: Molecular beam epitaxy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Density of electron gas&lt;/strong&gt;: $n \sim 2\times 10^{11} \text{cm}^{-2}$ under $100 \text{nm}$ of the surface.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Electron temperature&lt;/strong&gt;: $T_e\sim 135 \text{mK}$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Two tunnel barries&lt;/strong&gt; (control left gate voltage $V_L$ and right gate voltage $V_R$) control the detuning to allow electron move in or out the dot.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Detuning parameter&lt;/strong&gt; $\epsilon \propto V_R - V_L$.&lt;/li&gt;
+&lt;li&gt;The detuning parameter $\epsilon$ controls the system state.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_56ef3120207d2a076612c4e04cd774fe.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_a5ed98b836e1978ec1d6f323210daa32.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_56ef3120207d2a076612c4e04cd774fe.webp&#34;
+               width=&#34;705&#34;
+               height=&#34;435&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;qubit-infor&#34;&gt;Qubit infor&lt;/h4&gt;
+&lt;p&gt;See Fig.2.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;System cycle: shown in Fig.2A.&lt;/li&gt;
+&lt;li&gt;Computational subspace: $S$ and $T_0$ ($m_s = 0$), which are $(|\downarrow\uparrow\rangle - |\uparrow\downarrow\rangle)/\sqrt{2}$ and $(|\downarrow\uparrow\rangle + |\uparrow\downarrow\rangle)/\sqrt{2}$.&lt;/li&gt;
+&lt;li&gt;Measurement: using quantum point contact sensor. Details see next section.&lt;/li&gt;
+&lt;li&gt;Manipulation: by change detuning $\epsilon$; A fixed z-direction B-field to induce Zeeman splitting.&lt;/li&gt;
+&lt;li&gt;Four significant region (see Fig.2B):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;$\epsilon&amp;gt;0$: system at $(0,2)S$, two spin are in one potential wall. $(m,n)$ is a notation of charge state, where $m,n$ represents the number of electrons inside the left and right dots, respectively.&lt;/li&gt;
+&lt;li&gt;$\epsilon_{T+} \approx \epsilon &amp;lt; 0$: $S$ state resonant with $T_+$ state.&lt;/li&gt;
+&lt;li&gt;$\epsilon_{T+} &amp;gt; \epsilon$: $S$ state hybrids with $T_0$, with a exchange interaction strength $J(\epsilon)$.&lt;/li&gt;
+&lt;li&gt;$\epsilon &amp;laquo; J(0)$: Avoid crossing induced by spin-nuclei hyperfine interaction, with spacing $J(\epsilon) = g^*\mu_B B_{nuc} \rightarrow 0$. In this case, $S$ and $T_0$ are mixed by hyperfine field. The eigenstates of hyperfine interaction $|\downarrow\uparrow\rangle$ and $|\uparrow\downarrow\rangle$ are not mixed. See Fig.2D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;System Hamiltonian
+$$
+H = \begin{bmatrix}
+J(\epsilon) &amp;amp; \Delta B^{z}&lt;em&gt;{\text{nuc}} \
+\Delta B^{z}&lt;/em&gt;{\text{nuc}} &amp;amp; 0
+\end{bmatrix}
+$$
+where $\Delta B^{z}&lt;em&gt;{\text{nuc}} $ is teh difference in random hyperfine fields along the applied external B-field direction. In this paper, $B&lt;/em&gt;{\text{nuc}} \sim 1$ to $5$ mT.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_26b99ca970194710b10af70e1a76f542.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_84cf1b5e94ceec9fd03dda133f09c129.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_26b99ca970194710b10af70e1a76f542.webp&#34;
+               width=&#34;678&#34;
+               height=&#34;733&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;measurement&#34;&gt;Measurement&lt;/h4&gt;
+&lt;p&gt;Measurement, which is a projective measurement, is based on the spin-blockaded transition technique. A Singlet-Triplet qubit state (spin state) measurement is achieved by switching the detuning $\epsilon$ from negative value to positive, which will map $S$ to $(0,2)S$ charge state and $T_0$ (or $T_\pm$, depends on which state you are considered as computational state) remain in $(1,1)$, a spin-blocked configuration. The difference in $(0,2)$ and $(1,1)$ can be distinguished by quantum point contact (QPC), shown in the region diagram in Fig.1B.&lt;/p&gt;
+&lt;p&gt;The QPC sensor is used to distinguish charge states, which says the charge state (or more specificity, the number of electrons inside the neighbor quantum dots) of the electron inside a quantum dots will affect the conductance $g_s$ of a  gate, indicated by the black arrow in Fig.1A.&lt;/p&gt;
+&lt;h4 id=&#34;single-qubit-manipulation&#34;&gt;Single qubit manipulation&lt;/h4&gt;
+&lt;h5 id=&#34;bloch-sphere&#34;&gt;Bloch sphere&lt;/h5&gt;
+&lt;p&gt;Shown in Fig.3A, we choose $|0\rangle = |S\rangle$ and $|1\rangle = |T_0\rangle$. The eigenstates of hyperfine interaction are place at two points on the intersection points of sphere and x-axis.&lt;/p&gt;
+&lt;h5 id=&#34;spin-swap&#34;&gt;Spin SWAP&lt;/h5&gt;
+&lt;p&gt;Pulse sequences are shown in Fig.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_fc33152478dd4704b58694239735c764.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_c4a7e3ed2310e30c130ef7d009bcd414.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_fc33152478dd4704b58694239735c764.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;319&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h5 id=&#34;rabi-oscillations-in-downarrowuparrowrangle-and-uparrowdownarrowrangle-basis&#34;&gt;Rabi oscillations in $|\downarrow\uparrow\rangle$ and $|\uparrow\downarrow\rangle$ basis&lt;/h5&gt;
+&lt;p&gt;Pulse sequences are shown in Fig.4&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_ea8f9b5e776627998bbe0f40ba0219e7.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_e2ce595136565cc7dedf1a068940a250.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_ea8f9b5e776627998bbe0f40ba0219e7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;613&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h5 id=&#34;t2-measurement-spin-echo&#34;&gt;T2 measurement, spin echo&lt;/h5&gt;
+&lt;p&gt;Pulse sequences are shown in Fig.5&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_26b38bea825e4cf2098fbdb82d65c929.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_f8f75fc45d669ff7500b404bd6920c42.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_26b38bea825e4cf2098fbdb82d65c929.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;595&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;decoherence&#34;&gt;Decoherence&lt;/h4&gt;
+&lt;p&gt;Spin qubits have a long $T_1$ which is about tens of ms. But it has a really short $T_2$, which is measured by spin echo in this paper wich a value $T_2 \sim 10 ns$.&lt;/p&gt;
+&lt;p&gt;The reason for such short dephasing time is due to the hyperfine interaction between spin and nuclei.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

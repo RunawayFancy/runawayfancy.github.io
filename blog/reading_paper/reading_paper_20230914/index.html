@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: September 27, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Jiheng Duan 段繼恆" />
+
+
+
+
+
+  
+
+<meta name="description" content="Characterizing temperature and strain variations with qubit ensembles for their robust coherence protection" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230914/" />
+<link rel="canonical" href="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230914/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Jiheng Duan" />
+<meta property="og:url" content="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230914/" />
+<meta property="og:title" content="Reading Paper 20230914 | Jiheng Duan" />
+<meta property="og:description" content="Characterizing temperature and strain variations with qubit ensembles for their robust coherence protection" /><meta property="og:image" content="https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-09-14T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-09-14T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Reading Paper 20230914 | Jiheng Duan</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="f5bf4e95f1d2e1b4ef5ba6cc40e10da1" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#research"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#blog"><span>Blog</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Miscellany</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#SPUM"><span>SPUM</span></a>
+              
+                <a class="dropdown-item" href="/#editing"><span>Minecraft & Editing</span></a>
+              
+                <a class="dropdown-item" href="/#REMS"><span>REMS SMP</span></a>
+              
+                <a class="dropdown-item" href="/miscellany/connection"><span>Friends</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/CV.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/xueduanle" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Reading Paper 20230914</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Jiheng Duan 段繼恆</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 14, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/blog/">Blog</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="characterizing-temperature-and-strain-variations-with-qubit-ensembles-for-their-robust-coherence-protection">Characterizing temperature and strain variations with qubit ensembles for their robust coherence protection</h1>
+<p>Jiheng Duan, <a href="mailto:jiheng.duan@rochester.edu">jiheng.duan@rochester.edu</a>, 09/14/2023</p>
+<h2 id="paper-information">Paper Information</h2>
+<ul>
+<li>DOI: 10.1103/PhysRevLett.131.043602</li>
+<li>Date: 25, July., 2023</li>
+<li>Author: Guoqing Wang, Ariel Rebekah Barr, Hao Tang, Mo Chen, Changhao Li, Haowei Xu, Andrew Stasiuk, Ju Li, and Paola Cappellaro</li>
+</ul>
+<h2 id="motivation">Motivation</h2>
+<ol>
+<li>Solid-state spin defects (NV center in diamond here) suffer from dephasing due variations of intrinsic quadrupole and hyperfine interactions.</li>
+<li>Using electron spins to refocus variations of interactions (quadrupole and hyperfine) to achieve long nuclear spin free evolution. Known as <strong>unbalanced echo</strong>.</li>
+<li>This <strong>unbalanced echo</strong> technique and be used to sensing temperature and strain variations in materials with nanoscale resolution.</li>
+</ol>
+<h2 id="unbalanced-echo">Unbalanced echo</h2>
+<ul>
+<li>
+<p>It involves flipping an ancillary qubit (here the N-V electronic spin) midway through the free precession period of the target qubit (here the nitrogen nuclear spin).</p>
+</li>
+<li>
+<p>The flip time $\tau$ is asymmetric - it does not split the free precession time t into two equal halves, hence &ldquo;unbalanced&rdquo;.</p>
+</li>
+<li>
+<p>This echo sequence cancelles out low-frequency noise from interaction variations, acting like a spin echo.</p>
+</li>
+<li>
+<p>However, it preserves the useful quantum phase information accumulated during the free precession, unlike a regular spin echo.</p>
+</li>
+</ul>
+<h3 id="setup-system">Setup system</h3>
+<blockquote>
+<ul>
+<li>The system diagram and energy levels are shown in Fig.1 (a).</li>
+<li>The nuclear spin (n spin) is qubit and N-V center electron spin (e spin) is bath.</li>
+<li>e spin state is switched between $|m_S = 0\rangle$ and $| m_S = \pm 1 \rangle$.</li>
+<li>n spin contains single quantum (SQ) transitions between $|m_I = 0\rangle$ and $|m_I = \pm \rangle$ which have six different frequencies: $\omega_{1,2} |Q| \pm |\gamma_n B|$, $\omega_{3,4} = |Q| \mp |A_{zz}| \pm |\gamma_n B|$, and $\omega_{5,6} = |Q| \pm |A_{zz}| \pm |\gamma_n B|$, corresponding to the electron spin state $|m_S = 0\rangle$, $|m_S = -1\rangle$, and $|m_S = +1\rangle$, respectively.</li>
+<li>In a magnetic field $B$ aligned with the N-V center, the Hamiltonian of nuclear spin is given by
+$$
+H_n = Q I^2_z + m_S A_{zz}I_z + \gamma_n B I_z
+$$
+where $I_z$ is the spin-1 $z$ operator, and we assume the N-V electronic spin is in its eigenstate $|m_S\rangle$.</li>
+</ul>
+</blockquote>
+<h3 id="pulse-sequence">Pulse sequence</h3>
+<blockquote>
+<ul>
+<li>The pulse sequence are shown in Fig.1 (b).</li>
+<li>The N-V center electron are polarized to state $|m_S = 0, m_I = +1\rangle$ by a laser pulse.</li>
+<li>The nuclear spin state $(|0\rangle + |\pm 1\rangle)/\sqrt{2}$ is prepared with a $\pi/2$ pulse (notice that ``$m_I = $&rsquo;&rsquo; is omitted here for simplicity).</li>
+<li>Suppose we prepare nuclear spin state $(|0\rangle + |- 1\rangle)/\sqrt{2}$ and drive the spin state between $|m_S = 0\rangle$ and $|m_S = \pm 1\rangle$.</li>
+<li>The free evolution of nuclear spin state after time $t$ is given by $|\psi(t)\rangle = (|0\rangle + e^{i\phi}|-1\rangle)/\sqrt{2}$ with an accumulated quantum phase $\phi = \omega t$.</li>
+<li>At time $t - \tau$, we apply a $\pi$ pulse on the spin state, flipping the spin state from $|m_S = 0\rangle$ to $|m_S = \pm 1\rangle$, turning the level frequency from $|Q| - |\gamma_n B|$ to $|Q| \mp |A_{zz}| - |\gamma_n B|$.</li>
+</ul>
+<blockquote>
+<ul>
+<li>The accumulated phase and dephasing till now is $ \phi_0 + \delta\phi = -(|Q|-|\gamma_n B|)(t - \tau) + (\delta|Q| + \gamma_n \delta|B|)(t - \tau) $
+where $\delta$ means variation. <strong>Why there is a minus sign behind $\phi_0$ ??? And why there is a plus sign behind the $\delta B$ term ???</strong></li>
+</ul>
+</blockquote>
+<ul>
+<li>At time $t$, we apply another $\pi$ pulse on the spin state, flipping the spin state back to $|m_S = 0\rangle$. turning the level frequency back to $|Q| - |\gamma_n B|$.</li>
+</ul>
+<blockquote>
+<ul>
+<li>The accumulated phase and depasing in time interval $[t-\tau, t]$ is $\phi_0&rsquo; + \delta\phi&rsquo; = -(|Q| \mp |A_{zz}| - |\gamma_n B|)\tau + (\delta|Q| \mp \delta|A_{zz}| - \gamma_n \delta|B|)\tau$.</li>
+</ul>
+</blockquote>
+<ul>
+<li>Assume the flipped electron state is $|\m_S = +1\rangle$. The total accumulated phase and dephasing is given by $\phi = \phi_0 + \phi_0&rsquo; + \delta \phi + \delta \phi&rsquo;$.</li>
+<li>In optically addressed solid-state spin ensembles, the laser heating introduces temperature variations $\delta T$. This temperature variation will induce the variation in quadrupole and hyperfine interaction (assume the variation of the magnetic file $\delta B$ is minimized when designing the experimental setup, and the small gyromagnetic ratio $\gamma_n/\gamma_r \sim 10^{-4}$ introduces negligible coupling to the magnetic noise).</li>
+<li>Therefore, one correlation can be made by expressing $\delta Q = \alpha_Q \delta T$ and $\delta A_{zz} = \alpha_A \delta T$.</li>
+<li>The total phase accumulation and dephasing becomes
+$$
+\begin{aligned}
+\phi (\delta T) &amp;= \varphi_0 + \delta\varphi \
+&amp;= -t Q + \tau A_{zz} + \gamma_n B t - (t\alpha_Q - \tau\alpha_A)\delta T,
+\end{aligned}
+$$
+where $\varphi = -t Q + \tau A_{zz} + \gamma_n B t$ and $\delta \varphi = - (t\alpha_Q - \tau\alpha_A)\delta T$.</li>
+<li><strong>If the pulse location $\tau/t$ is set to the ratio $\alpha_Q/\alpha_A$, the noise (dephasing) $\delta \varphi$ can will be completely canceled while the static part $\varphi_0$ still remain sensitive to the magnetic field.</strong></li>
+</ul>
+</blockquote>
+<h3 id="fitting-get-t_2-">Fitting, get $T_2^* $</h3>
+<blockquote>
+<ul>
+<li>We use a Ramsey type pulse on the n spin, and map the dephasing on to the e spin and perform a measurement.</li>
+<li>The Ramsey signal
+$$
+S(t) = [1 + \cos(\omega t)]/2,
+$$
+where $\omega = \omega_0 + \delta \omega$. The $\delta \omega$ satisfies a zero-mean Lorenzian distribution with a half-width $\sigma = 1/T_2^<em>$, the signal has an exponential decay envelope $\langle cos(\omega t) \rangle = \cos(\omega_0 t) e^{-t/T_2^</em>}$ characterizing the loss of quantum information.</li>
+<li>By sweeping the phase $\phi$ and free evolution time $t$, we could measured the curve in Fig.1 (c).</li>
+<li>Fig.1 (d) shown a sweep of pulse location $\tau/t$ with $t=1400 \mu s$, where an unbalanced echo signal is observed at $\tau/t = 0.18$.</li>
+</ul>
+</blockquote>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20230914/unba_echo_1_huea0703760fc32f5aedf61f36ccfb3675_616506_4c28ac8dadef280fabb2e8d55a5049ea.webp 400w,
+               /blog/reading_paper/reading_paper_20230914/unba_echo_1_huea0703760fc32f5aedf61f36ccfb3675_616506_e4ab05451ca98f51f02b22ddca323920.webp 760w,
+               /blog/reading_paper/reading_paper_20230914/unba_echo_1_huea0703760fc32f5aedf61f36ccfb3675_616506_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20230914/unba_echo_1_huea0703760fc32f5aedf61f36ccfb3675_616506_4c28ac8dadef280fabb2e8d55a5049ea.webp"
+               width="760"
+               height="476"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="characterization-of-temperature-and-stain-distribution">Characterization of temperature and stain distribution</h2>
+<blockquote>
+<ul>
+<li>Based on the discussion of frequency noise $\delta \omega$, by probing the material dependent ratio $\alpha_Q/\alpha_A$, it can be used to characterize the temperature distribution in the material by analyzing the shape and decay constant in the unbalanced echo and free-evolution measurements.</li>
+<li>The Lorentzian distribution of the temperature with half-width $\sigma_T$, the dephasing factor becomes
+$$
+e^{-t/T_{2n}^*} = ee^{-|t\pm (\alpha_Q/\alpha_A)t||\alpha_A| \sigma_T},
+$$
+for nuclear spin state $(|0\rangle + |\pm 1\rangle)/\sqrt{2}$, respectively.</li>
+</ul>
+</blockquote>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20230914/unba_echo_2_hu113dfb37aa3087b88b4d5799ed0b6689_247086_a5fb7e1d6b04c8495367601edd4fdbd8.webp 400w,
+               /blog/reading_paper/reading_paper_20230914/unba_echo_2_hu113dfb37aa3087b88b4d5799ed0b6689_247086_1625a232573dbe082c06bd40e3e0af6b.webp 760w,
+               /blog/reading_paper/reading_paper_20230914/unba_echo_2_hu113dfb37aa3087b88b4d5799ed0b6689_247086_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20230914/unba_echo_2_hu113dfb37aa3087b88b4d5799ed0b6689_247086_a5fb7e1d6b04c8495367601edd4fdbd8.webp"
+               width="653"
+               height="723"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="refocusing-strong-noise-variations">Refocusing strong noise variations</h2>
+<p>C.f. Sec. <em>Refocusing strong noise variations</em>.</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/academic/">Academic</a>
+  
+  <a class="badge badge-light" href="/tag/quantum-physics/">Quantum Physics</a>
+  
+  <a class="badge badge-light" href="/tag/quantum-information-science/">Quantum Information Science</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230914%2F&amp;text=Reading&#43;Paper&#43;20230914" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230914%2F&amp;t=Reading&#43;Paper&#43;20230914" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Reading%20Paper%2020230914&amp;body=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230914%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230914%2F&amp;title=Reading&#43;Paper&#43;20230914" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Reading&#43;Paper&#43;20230914%20https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230914%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230914%2F&amp;title=Reading&#43;Paper&#43;20230914" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://runawayfancy.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huad667b7b6dbf53cbe0c0f0a497b901e3_3057456_270x270_fill_q75_lanczos_center.jpg" alt="Jiheng Duan 段繼恆"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://runawayfancy.github.io/">Jiheng Duan 段繼恆</a></h5>
+      <h6 class="card-subtitle">First year PhD student</h6>
+      <p class="card-text">My research interests include superconducting quantum computing, high fidelity two-qubit gate, and distortion correction of digital signals.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiheng.duan@rochester.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/xueduanle" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=cHOxggIAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/RunawayFancy" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jiheng-duan-232246266/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/CV.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    Copyright © 2023 Jiheng Duan. This work is licensed under MIT license
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/en/js/wowchemy.min.fa71bfdd82ca5b7ea4a46c3c3d1b03fa.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

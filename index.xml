@@ -5,12 +5,578 @@
     <link>https://runawayfancy.github.io/</link>
       <atom:link href="https://runawayfancy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiheng Duan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
       <title>Jiheng Duan</title>
       <link>https://runawayfancy.github.io/</link>
     </image>
+    
+    <item>
+      <title>Friends and Connections</title>
+      <link>https://runawayfancy.github.io/miscellany/connection/</link>
+      <pubDate>Wed, 27 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/miscellany/connection/</guid>
+      <description>&lt;h5 id=&#34;yichen-liu&#34;&gt;Yichen Liu&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Homepage&lt;/strong&gt;: &lt;a href=&#34;https://yliu.fit&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;yliu.fit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt;: One of my best friends, buddies, peers, colleague. He focusing on astrophotography image processing via deep learning and other topics in astrophysics at UIUC, Department of Astronomy.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;boxmars&#34;&gt;BoxMars&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Github&lt;/strong&gt;: &lt;a href=&#34;https://github.com/BoxMars&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/BoxMars&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt;: One of my best friends, buddies, peers, colleague. He focusing on big data analysis, internet public opinion analysis, hardware video codec, etc. Currently, he is a graduate student at the University of Macau, Department of Computer Science.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;tixuan-tan&#34;&gt;Tixuan Tan&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Homepage&lt;/strong&gt;: &lt;a href=&#34;https://ttx002000.github.io/homepage/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://ttx002000.github.io/homepage/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt;: Friends. He focusing on condensed matter theory, including correlation phenomena, topological phenomena, Moire system, etc. He currently is a PhD student at Stanford University, Department of Physics.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;zhiyao-hu&#34;&gt;Zhiyao Hu&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Homepage&lt;/strong&gt;: &lt;a href=&#34;https://zhiyaohu.github.io/aboutme/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://zhiyaohu.github.io/aboutme/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt;: Friend. He focusing on quantum metrology, quantum control theory, solid spin qubit experiment, etc.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;jinchen-zhao&#34;&gt;Jinchen Zhao&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Homepage&lt;/strong&gt;: &lt;a href=&#34;https://jinchen-zhao.github.io/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://jinchen-zhao.github.io/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt;: Friend. He focusing on quantum optics and quantum-enhenced neural network. He currently is a PhD student at Yale University, applied physics program.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;jiaxuan-li&#34;&gt;Jiaxuan Li&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Homepage&lt;/strong&gt;: &lt;a href=&#34;http://jiaxuanli.me/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://jiaxuanli.me/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt;: Fiend. He focusing on astrophysics topics such as large diffuse galaxies, etc. He currently is a PhD student at Princeton University, Department of Astrophysical Science.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h5 id=&#34;jiayue-yang&#34;&gt;Jiayue Yang&lt;/h5&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Homepage&lt;/strong&gt;: &lt;a href=&#34;https://efficacious-parcel-4e4.notion.site/Hi-I-m-Jiayue-Yang-b611c3c006cd46a3a94c73ce7efda2b6&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;homepage&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;About&lt;/strong&gt;: Friend, She focusing on theoretical physics, including black hole physics, cosmology, and string theory. She currently is a graduate student at Perimeter Institute, University of Waterloo.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Thesis</title>
+      <link>https://runawayfancy.github.io/blog/thesis/</link>
+      <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/thesis/</guid>
+      <description>&lt;h2 id=&#34;predistortion-guideline-in-quantum-engineering&#34;&gt;Predistortion Guideline in Quantum Engineering&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1K_Rt9zQyzGvXlzYeh0557zEvDumGg16o/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Predistortion Guideline in Quantum Engineering&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;calibration-and-readout-of-a-single-superconducting-transmon-qubit&#34;&gt;Calibration and Readout of a Single Superconducting Transmon Qubit&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Remarks: this is theh final term paper of course APAC3003 &amp;ldquo;Material Characterization&amp;rdquo; at the University of Macau&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1aCsNaGDdRwnpMA4cx1pY8hFUJDNGcxyh/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Calibration and Readout of a Single Superconducting Transmon Qubit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;review-of-quantum-magnetic-field-sensor-using-solid-spin-qubit&#34;&gt;Review of Quantum Magnetic Field Sensor Using Solid Spin qubit&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;Remarks: this is theh final term paper of course APAC4005 &amp;ldquo;Micro-Nano system&amp;rdquo; at the University of Macau&lt;/em&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1TFQGA47VQ1KeT7GET_YE4LlpvGZEQcV-/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Review of Quantum Magnetic Field Sensor Using Solid Spin qubit&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reading Paper 20230914</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230914/</link>
+      <pubDate>Thu, 14 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230914/</guid>
+      <description>&lt;h1 id=&#34;characterizing-temperature-and-strain-variations-with-qubit-ensembles-for-their-robust-coherence-protection&#34;&gt;Characterizing temperature and strain variations with qubit ensembles for their robust coherence protection&lt;/h1&gt;
+&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 09/14/2023&lt;/p&gt;
+&lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DOI: 10.1103/PhysRevLett.131.043602&lt;/li&gt;
+&lt;li&gt;Date: 25, July., 2023&lt;/li&gt;
+&lt;li&gt;Author: Guoqing Wang, Ariel Rebekah Barr, Hao Tang, Mo Chen, Changhao Li, Haowei Xu, Andrew Stasiuk, Ju Li, and Paola Cappellaro&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Solid-state spin defects (NV center in diamond here) suffer from dephasing due variations of intrinsic quadrupole and hyperfine interactions.&lt;/li&gt;
+&lt;li&gt;Using electron spins to refocus variations of interactions (quadrupole and hyperfine) to achieve long nuclear spin free evolution. Known as &lt;strong&gt;unbalanced echo&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;This &lt;strong&gt;unbalanced echo&lt;/strong&gt; technique and be used to sensing temperature and strain variations in materials with nanoscale resolution.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;unbalanced-echo&#34;&gt;Unbalanced echo&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;It involves flipping an ancillary qubit (here the N-V electronic spin) midway through the free precession period of the target qubit (here the nitrogen nuclear spin).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The flip time $\tau$ is asymmetric - it does not split the free precession time t into two equal halves, hence &amp;ldquo;unbalanced&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This echo sequence cancelles out low-frequency noise from interaction variations, acting like a spin echo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;However, it preserves the useful quantum phase information accumulated during the free precession, unlike a regular spin echo.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;setup-system&#34;&gt;Setup system&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The system diagram and energy levels are shown in Fig.1 (a).&lt;/li&gt;
+&lt;li&gt;The nuclear spin (n spin) is qubit and N-V center electron spin (e spin) is bath.&lt;/li&gt;
+&lt;li&gt;e spin state is switched between $|m_S = 0\rangle$ and $| m_S = \pm 1 \rangle$.&lt;/li&gt;
+&lt;li&gt;n spin contains single quantum (SQ) transitions between $|m_I = 0\rangle$ and $|m_I = \pm \rangle$ which have six different frequencies: $\omega_{1,2} |Q| \pm |\gamma_n B|$, $\omega_{3,4} = |Q| \mp |A_{zz}| \pm |\gamma_n B|$, and $\omega_{5,6} = |Q| \pm |A_{zz}| \pm |\gamma_n B|$, corresponding to the electron spin state $|m_S = 0\rangle$, $|m_S = -1\rangle$, and $|m_S = +1\rangle$, respectively.&lt;/li&gt;
+&lt;li&gt;In a magnetic field $B$ aligned with the N-V center, the Hamiltonian of nuclear spin is given by
+$$
+H_n = Q I^2_z + m_S A_{zz}I_z + \gamma_n B I_z
+$$
+where $I_z$ is the spin-1 $z$ operator, and we assume the N-V electronic spin is in its eigenstate $|m_S\rangle$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;pulse-sequence&#34;&gt;Pulse sequence&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The pulse sequence are shown in Fig.1 (b).&lt;/li&gt;
+&lt;li&gt;The N-V center electron are polarized to state $|m_S = 0, m_I = +1\rangle$ by a laser pulse.&lt;/li&gt;
+&lt;li&gt;The nuclear spin state $(|0\rangle + |\pm 1\rangle)/\sqrt{2}$ is prepared with a $\pi/2$ pulse (notice that ``$m_I = $&amp;rsquo;&amp;rsquo; is omitted here for simplicity).&lt;/li&gt;
+&lt;li&gt;Suppose we prepare nuclear spin state $(|0\rangle + |- 1\rangle)/\sqrt{2}$ and drive the spin state between $|m_S = 0\rangle$ and $|m_S = \pm 1\rangle$.&lt;/li&gt;
+&lt;li&gt;The free evolution of nuclear spin state after time $t$ is given by $|\psi(t)\rangle = (|0\rangle + e^{i\phi}|-1\rangle)/\sqrt{2}$ with an accumulated quantum phase $\phi = \omega t$.&lt;/li&gt;
+&lt;li&gt;At time $t - \tau$, we apply a $\pi$ pulse on the spin state, flipping the spin state from $|m_S = 0\rangle$ to $|m_S = \pm 1\rangle$, turning the level frequency from $|Q| - |\gamma_n B|$ to $|Q| \mp |A_{zz}| - |\gamma_n B|$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The accumulated phase and dephasing till now is $ \phi_0 + \delta\phi = -(|Q|-|\gamma_n B|)(t - \tau) + (\delta|Q| + \gamma_n \delta|B|)(t - \tau) $
+where $\delta$ means variation. &lt;strong&gt;Why there is a minus sign behind $\phi_0$ ??? And why there is a plus sign behind the $\delta B$ term ???&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;At time $t$, we apply another $\pi$ pulse on the spin state, flipping the spin state back to $|m_S = 0\rangle$. turning the level frequency back to $|Q| - |\gamma_n B|$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The accumulated phase and depasing in time interval $[t-\tau, t]$ is $\phi_0&amp;rsquo; + \delta\phi&amp;rsquo; = -(|Q| \mp |A_{zz}| - |\gamma_n B|)\tau + (\delta|Q| \mp \delta|A_{zz}| - \gamma_n \delta|B|)\tau$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Assume the flipped electron state is $|\m_S = +1\rangle$. The total accumulated phase and dephasing is given by $\phi = \phi_0 + \phi_0&amp;rsquo; + \delta \phi + \delta \phi&amp;rsquo;$.&lt;/li&gt;
+&lt;li&gt;In optically addressed solid-state spin ensembles, the laser heating introduces temperature variations $\delta T$. This temperature variation will induce the variation in quadrupole and hyperfine interaction (assume the variation of the magnetic file $\delta B$ is minimized when designing the experimental setup, and the small gyromagnetic ratio $\gamma_n/\gamma_r \sim 10^{-4}$ introduces negligible coupling to the magnetic noise).&lt;/li&gt;
+&lt;li&gt;Therefore, one correlation can be made by expressing $\delta Q = \alpha_Q \delta T$ and $\delta A_{zz} = \alpha_A \delta T$.&lt;/li&gt;
+&lt;li&gt;The total phase accumulation and dephasing becomes
+$$
+\begin{aligned}
+\phi (\delta T) &amp;amp;= \varphi_0 + \delta\varphi \
+&amp;amp;= -t Q + \tau A_{zz} + \gamma_n B t - (t\alpha_Q - \tau\alpha_A)\delta T,
+\end{aligned}
+$$
+where $\varphi = -t Q + \tau A_{zz} + \gamma_n B t$ and $\delta \varphi = - (t\alpha_Q - \tau\alpha_A)\delta T$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;If the pulse location $\tau/t$ is set to the ratio $\alpha_Q/\alpha_A$, the noise (dephasing) $\delta \varphi$ can will be completely canceled while the static part $\varphi_0$ still remain sensitive to the magnetic field.&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;fitting-get-t_2-&#34;&gt;Fitting, get $T_2^* $&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;We use a Ramsey type pulse on the n spin, and map the dephasing on to the e spin and perform a measurement.&lt;/li&gt;
+&lt;li&gt;The Ramsey signal
+$$
+S(t) = [1 + \cos(\omega t)]/2,
+$$
+where $\omega = \omega_0 + \delta \omega$. The $\delta \omega$ satisfies a zero-mean Lorenzian distribution with a half-width $\sigma = 1/T_2^&lt;em&gt;$, the signal has an exponential decay envelope $\langle cos(\omega t) \rangle = \cos(\omega_0 t) e^{-t/T_2^&lt;/em&gt;}$ characterizing the loss of quantum information.&lt;/li&gt;
+&lt;li&gt;By sweeping the phase $\phi$ and free evolution time $t$, we could measured the curve in Fig.1 (c).&lt;/li&gt;
+&lt;li&gt;Fig.1 (d) shown a sweep of pulse location $\tau/t$ with $t=1400 \mu s$, where an unbalanced echo signal is observed at $\tau/t = 0.18$.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230914/unba_echo_1_huea0703760fc32f5aedf61f36ccfb3675_616506_4c28ac8dadef280fabb2e8d55a5049ea.webp 400w,
+               /blog/reading_paper/reading_paper_20230914/unba_echo_1_huea0703760fc32f5aedf61f36ccfb3675_616506_e4ab05451ca98f51f02b22ddca323920.webp 760w,
+               /blog/reading_paper/reading_paper_20230914/unba_echo_1_huea0703760fc32f5aedf61f36ccfb3675_616506_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230914/unba_echo_1_huea0703760fc32f5aedf61f36ccfb3675_616506_4c28ac8dadef280fabb2e8d55a5049ea.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;476&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;characterization-of-temperature-and-stain-distribution&#34;&gt;Characterization of temperature and stain distribution&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;Based on the discussion of frequency noise $\delta \omega$, by probing the material dependent ratio $\alpha_Q/\alpha_A$, it can be used to characterize the temperature distribution in the material by analyzing the shape and decay constant in the unbalanced echo and free-evolution measurements.&lt;/li&gt;
+&lt;li&gt;The Lorentzian distribution of the temperature with half-width $\sigma_T$, the dephasing factor becomes
+$$
+e^{-t/T_{2n}^*} = ee^{-|t\pm (\alpha_Q/\alpha_A)t||\alpha_A| \sigma_T},
+$$
+for nuclear spin state $(|0\rangle + |\pm 1\rangle)/\sqrt{2}$, respectively.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230914/unba_echo_2_hu113dfb37aa3087b88b4d5799ed0b6689_247086_a5fb7e1d6b04c8495367601edd4fdbd8.webp 400w,
+               /blog/reading_paper/reading_paper_20230914/unba_echo_2_hu113dfb37aa3087b88b4d5799ed0b6689_247086_1625a232573dbe082c06bd40e3e0af6b.webp 760w,
+               /blog/reading_paper/reading_paper_20230914/unba_echo_2_hu113dfb37aa3087b88b4d5799ed0b6689_247086_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230914/unba_echo_2_hu113dfb37aa3087b88b4d5799ed0b6689_247086_a5fb7e1d6b04c8495367601edd4fdbd8.webp&#34;
+               width=&#34;653&#34;
+               height=&#34;723&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;refocusing-strong-noise-variations&#34;&gt;Refocusing strong noise variations&lt;/h2&gt;
+&lt;p&gt;C.f. Sec. &lt;em&gt;Refocusing strong noise variations&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reading Paper 20230903</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/</link>
+      <pubDate>Sun, 03 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/</guid>
+      <description>&lt;h1 id=&#34;cherent-manipulation-of-coupled-electron-spins-in-semiconductor-quantum-dots&#34;&gt;Cherent Manipulation of Coupled Electron Spins in Semiconductor Quantum Dots&lt;/h1&gt;
+&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 09/03/2023&lt;/p&gt;
+&lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DOI: 10.1126/science.111.6955&lt;/li&gt;
+&lt;li&gt;Date: 30, Sept., 2005&lt;/li&gt;
+&lt;li&gt;Author: J. R. Petta, A. C. Johnson, J. M. Taylor, E. A. Laird, A. Yacoby, M. D. Lukin, C. M. Marcis, M. P. Hanson, A. C. Gossard&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using electrons as qubits in semiconductor devices to encode information.&lt;/li&gt;
+&lt;li&gt;Achieve qubit initialization, measurement, coherent control ($\sqrt{\text{SWAP}}$ gate)&lt;/li&gt;
+&lt;li&gt;Characterizing $T_1$ and $T_2$.&lt;/li&gt;
+&lt;li&gt;Analyzing decoherence sources.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;spin-manipulation-and-measurement&#34;&gt;Spin manipulation and measurement&lt;/h2&gt;
+&lt;h4 id=&#34;devices-infor&#34;&gt;Devices infor&lt;/h4&gt;
+&lt;p&gt;See Fig.1.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Material&lt;/strong&gt;: GaAs/AlGaAs (small electron effective mass).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fabrication&lt;/strong&gt;: Molecular beam epitaxy.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Density of electron gas&lt;/strong&gt;: $n \sim 2\times 10^{11} \text{cm}^{-2}$ under $100 \text{nm}$ of the surface.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Electron temperature&lt;/strong&gt;: $T_e\sim 135 \text{mK}$.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Two tunnel barries&lt;/strong&gt; (control left gate voltage $V_L$ and right gate voltage $V_R$) control the detuning to allow electron move in or out the dot.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Detuning parameter&lt;/strong&gt; $\epsilon \propto V_R - V_L$.&lt;/li&gt;
+&lt;li&gt;The detuning parameter $\epsilon$ controls the system state.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_56ef3120207d2a076612c4e04cd774fe.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_a5ed98b836e1978ec1d6f323210daa32.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_56ef3120207d2a076612c4e04cd774fe.webp&#34;
+               width=&#34;705&#34;
+               height=&#34;435&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;qubit-infor&#34;&gt;Qubit infor&lt;/h4&gt;
+&lt;p&gt;See Fig.2.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;System cycle: shown in Fig.2A.&lt;/li&gt;
+&lt;li&gt;Computational subspace: $S$ and $T_0$ ($m_s = 0$), which are $(|\downarrow\uparrow\rangle - |\uparrow\downarrow\rangle)/\sqrt{2}$ and $(|\downarrow\uparrow\rangle + |\uparrow\downarrow\rangle)/\sqrt{2}$.&lt;/li&gt;
+&lt;li&gt;Measurement: using quantum point contact sensor. Details see next section.&lt;/li&gt;
+&lt;li&gt;Manipulation: by change detuning $\epsilon$; A fixed z-direction B-field to induce Zeeman splitting.&lt;/li&gt;
+&lt;li&gt;Four significant region (see Fig.2B):&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;$\epsilon&amp;gt;0$: system at $(0,2)S$, two spin are in one potential wall. $(m,n)$ is a notation of charge state, where $m,n$ represents the number of electrons inside the left and right dots, respectively.&lt;/li&gt;
+&lt;li&gt;$\epsilon_{T+} \approx \epsilon &amp;lt; 0$: $S$ state resonant with $T_+$ state.&lt;/li&gt;
+&lt;li&gt;$\epsilon_{T+} &amp;gt; \epsilon$: $S$ state hybrids with $T_0$, with a exchange interaction strength $J(\epsilon)$.&lt;/li&gt;
+&lt;li&gt;$\epsilon &amp;laquo; J(0)$: Avoid crossing induced by spin-nuclei hyperfine interaction, with spacing $J(\epsilon) = g^*\mu_B B_{nuc} \rightarrow 0$. In this case, $S$ and $T_0$ are mixed by hyperfine field. The eigenstates of hyperfine interaction $|\downarrow\uparrow\rangle$ and $|\uparrow\downarrow\rangle$ are not mixed. See Fig.2D&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;System Hamiltonian
+$$
+H = \begin{bmatrix}
+J(\epsilon) &amp;amp; \Delta B^{z}&lt;em&gt;{\text{nuc}} \
+\Delta B^{z}&lt;/em&gt;{\text{nuc}} &amp;amp; 0
+\end{bmatrix}
+$$
+where $\Delta B^{z}&lt;em&gt;{\text{nuc}} $ is teh difference in random hyperfine fields along the applied external B-field direction. In this paper, $B&lt;/em&gt;{\text{nuc}} \sim 1$ to $5$ mT.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_26b99ca970194710b10af70e1a76f542.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_84cf1b5e94ceec9fd03dda133f09c129.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_26b99ca970194710b10af70e1a76f542.webp&#34;
+               width=&#34;678&#34;
+               height=&#34;733&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;measurement&#34;&gt;Measurement&lt;/h4&gt;
+&lt;p&gt;Measurement, which is a projective measurement, is based on the spin-blockaded transition technique. A Singlet-Triplet qubit state (spin state) measurement is achieved by switching the detuning $\epsilon$ from negative value to positive, which will map $S$ to $(0,2)S$ charge state and $T_0$ (or $T_\pm$, depends on which state you are considered as computational state) remain in $(1,1)$, a spin-blocked configuration. The difference in $(0,2)$ and $(1,1)$ can be distinguished by quantum point contact (QPC), shown in the region diagram in Fig.1B.&lt;/p&gt;
+&lt;p&gt;The QPC sensor is used to distinguish charge states, which says the charge state (or more specificity, the number of electrons inside the neighbor quantum dots) of the electron inside a quantum dots will affect the conductance $g_s$ of a  gate, indicated by the black arrow in Fig.1A.&lt;/p&gt;
+&lt;h4 id=&#34;single-qubit-manipulation&#34;&gt;Single qubit manipulation&lt;/h4&gt;
+&lt;h5 id=&#34;bloch-sphere&#34;&gt;Bloch sphere&lt;/h5&gt;
+&lt;p&gt;Shown in Fig.3A, we choose $|0\rangle = |S\rangle$ and $|1\rangle = |T_0\rangle$. The eigenstates of hyperfine interaction are place at two points on the intersection points of sphere and x-axis.&lt;/p&gt;
+&lt;h5 id=&#34;spin-swap&#34;&gt;Spin SWAP&lt;/h5&gt;
+&lt;p&gt;Pulse sequences are shown in Fig.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_fc33152478dd4704b58694239735c764.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_c4a7e3ed2310e30c130ef7d009bcd414.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_fc33152478dd4704b58694239735c764.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;319&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h5 id=&#34;rabi-oscillations-in-downarrowuparrowrangle-and-uparrowdownarrowrangle-basis&#34;&gt;Rabi oscillations in $|\downarrow\uparrow\rangle$ and $|\uparrow\downarrow\rangle$ basis&lt;/h5&gt;
+&lt;p&gt;Pulse sequences are shown in Fig.4&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_ea8f9b5e776627998bbe0f40ba0219e7.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_e2ce595136565cc7dedf1a068940a250.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_ea8f9b5e776627998bbe0f40ba0219e7.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;613&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h5 id=&#34;t2-measurement-spin-echo&#34;&gt;T2 measurement, spin echo&lt;/h5&gt;
+&lt;p&gt;Pulse sequences are shown in Fig.5&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_26b38bea825e4cf2098fbdb82d65c929.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_f8f75fc45d669ff7500b404bd6920c42.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_26b38bea825e4cf2098fbdb82d65c929.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;595&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;decoherence&#34;&gt;Decoherence&lt;/h4&gt;
+&lt;p&gt;Spin qubits have a long $T_1$ which is about tens of ms. But it has a really short $T_2$, which is measured by spin echo in this paper wich a value $T_2 \sim 10 ns$.&lt;/p&gt;
+&lt;p&gt;The reason for such short dephasing time is due to the hyperfine interaction between spin and nuclei.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reading Paper 20230824</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230824/</link>
+      <pubDate>Thu, 24 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230824/</guid>
+      <description>&lt;h1 id=&#34;phys-rev-lett-131050601&#34;&gt;Phys. Rev. Lett. 131.050601&lt;/h1&gt;
+&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 08/24/2023&lt;/p&gt;
+&lt;h2 id=&#34;title&#34;&gt;Title&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Approximate Autonomous Quantum Error Correction with Reinforcement Learning&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Approximate Autonomous Quantum Error Correction (AAQEC) 利用了人为制造的耗散二能级系统对任意qubit态$|\Psi_{\theta \phi}\rangle$进行自动QEC. 这篇文章里，用到了bosonic system去制造这样的code space（逻辑比特），并且使用一个auxiliary qubit作为人为制造的耗散二能级系统，来实现对code space的AAQEC。auxiliary qubit的引入实际上是引入了一个Lindblad operator $L_{eng}$, 它将逻辑比特的量子态从error space转回code space。这种AAQEC的protocol（code space）的设计优化用到了reinforcement learning (RL)，及在经典计算机下进行模拟，通过RL返回控制优化mean fidelity $\bar{F}(|0_L\rangle, |1_L\rangle)$ 以找到protocol所需的logic zero $|0_L\rangle$ and one $|1_L \rangle$ 的最优解。注意这里的$|0_L\rangle$ and $|1_L\rangle$ 是满足近似Knill-Laflamme (KL) conditions的（正文Eq.(2)上方的段落内）。这样的protocol对逻辑门的Hamiltonian distance的要求为$d_g = 2$,及需要couple $|n\rangle$ 和 $|n + 2\rangle$ 两个态来实现逻辑门操作。同时，此protocol对engineered Lindblad operator $L_{eng}$的Hamiltonian distance为$d=1$。比如，当$|0_L\rangle \approx |4\rangle$ and $|1_L\rangle \approx |2\rangle$, $L_{eng} \propto |2\rangle \langle 1| + |4\rangle \langle 3|$ (single photon loss). 对应的logical Pauli operator 为 $\sigma_x = |2\rangle \langle 4| + |4\rangle \langle 2 |$, $\sigma_y = i(|4\rangle \langle 2| - |2\rangle \langle 4 |)$, and $\sigma_z = |2\rangle \langle 2| - |4\rangle \langle 4 |$。&lt;/p&gt;
+&lt;h2 id=&#34;code-space-and-dynamics&#34;&gt;Code Space and dynamics&lt;/h2&gt;
+&lt;p&gt;假设一个bosonic system和一个理想的auxiliary qubit couple在一起，bosonic system视为一个logical qubit，其logic zero and one 如下定义
+$$
+|0_L\rangle = \sum_{n=0}c_n^{(0)} |4n\rangle, \ |1_L\rangle = \sum_{n=0} c_n^{(1)} |4n+2\rangle,
+$$
+where $c_n^{(0)}$ and $c_n^{(1)}$ 是real coefficients，满足$\sum_n|c_n^{(u)}|^2 =1$ $(u = 0,1)$。 qubit的single photon decay rate是$\gamma_b$, bosonic system的single photon loss rate 为$\gamma_a$。两个系统couple在一起，我们定义一个QEC jump operator，也就是我们之前提到的engineered Lindblad operator
+$$
+L_{eng} = \sum_{|d_l|\le d} \sum_n \lambda_{nd_l} |n\rangle \langle n+ d_l |,
+$$
+where $d_l$ 是Hamiltonian distance。我们的系统的时间演化由如下的master equation描述
+$$
+\frac{d \rho}{d t} = -i\left[ H_{eff}, \rho \right] + \frac{\gamma_a}{2}\mathcal{D}[a] + \frac{\gamma_b}{2}\mathcal{D}[\sigma_-],
+$$
+where the effective Hamiltonian $H_{eff}= g(L_{eng}\sigma_+ + L_{eng}^\dagger \sigma_-)$, the superoperator $\mathcal{D}[ x] = 2x\rho x^\dagger - x^\dagger x \rho - \rho x^\dagger x$, and $\rho$ is the system&amp;rsquo;s density matrix. Notice that we assume $\gamma_a, g \ll \gamma_b$, and $\gamma_a \ll g$.&lt;/p&gt;
+&lt;p&gt;如此，我们可以assume一些系统动力学的演化路径。我们的初始态，也就是code space为$|\Psi_{\theta\phi},0\rangle$。 对于single photon loss 导致的error，我们有如下两种路径，在如下的图展示出来：
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230824/image-1_hu67d071cf463635d3a508619561c28dc5_47098_5b810471b77ed34b66dacc9535c8cacd.webp 400w,
+               /blog/reading_paper/reading_paper_20230824/image-1_hu67d071cf463635d3a508619561c28dc5_47098_eb7e16d3bd1c487a8d6fd348e61954b1.webp 760w,
+               /blog/reading_paper/reading_paper_20230824/image-1_hu67d071cf463635d3a508619561c28dc5_47098_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230824/image-1_hu67d071cf463635d3a508619561c28dc5_47098_5b810471b77ed34b66dacc9535c8cacd.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;156&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+
+或者从如下图FIG 1.(a) 可以看出来系统的耦合状态。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20230824/image_hu0ed9b2c39876a9369bc98426b7107cf6_497491_8115319b30bbdf806ff9c89d7b25ae4e.webp 400w,
+               /blog/reading_paper/reading_paper_20230824/image_hu0ed9b2c39876a9369bc98426b7107cf6_497491_72a5c22f6585c44c32a2d842ae7a849b.webp 760w,
+               /blog/reading_paper/reading_paper_20230824/image_hu0ed9b2c39876a9369bc98426b7107cf6_497491_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230824/image_hu0ed9b2c39876a9369bc98426b7107cf6_497491_8115319b30bbdf806ff9c89d7b25ae4e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;391&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;optimization-code-space&#34;&gt;Optimization Code Space&lt;/h2&gt;
+&lt;p&gt;通过RL，QUTIP在经典计算机下对$|0_L\rangle $ and $|1_L\rangle$ 中的系数$c_n^{(0)}$ and $c_n^{(1)}$进行优化，以让mean fidelity达到最小值。细节参考文章 Sec. &lt;em&gt;Optimal code space&lt;/em&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Minecraft and Editing</title>
@@ -55,7 +621,7 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/files/notes/SE-interaction%20And%20Iswap%20Gate.pdf&#34; style=&#34;color:#285d93&#34;&gt; SE-Interaction and ISWAP gate &lt;/a&gt; (Last Update 12/9/2022)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1_GrvXQIam8_JxRtpd1ua-9VjJvJLq9lF/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SE-Interaction and ISWAP gate&lt;/a&gt; (Last Update 12/09/2022)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;ul&gt;
 &lt;li&gt;
@@ -63,85 +629,134 @@
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/files/notes/Displaced%20Number%20State.pdf&#34; style=&#34;color:#285d93&#34;&gt; Displaced Fock State &lt;/a&gt; (Last Update 12/9/2022)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1TW4Aa5vV4gDeeVWHc4TxTRwgDnveYTyB/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Displaced Fock State&lt;/a&gt; (Last Update 12/09/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;winger-spherical-tensor&#34;&gt;Winger, Spherical Tensor&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1bjeFasHTGWCx_OyqRzQ_W0HdHIcH-iJY/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Winger, Spherical Tensor&lt;/a&gt; (Last Update 09/26/2023)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;quantum-optics&#34;&gt;Quantum Optics&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/files/notes/Quantum%20Optics%20Notes.pdf&#34; style=&#34;color:#285d93&#34;&gt; Introduction to Quantum Optics &lt;/a&gt; (Last Update 12/9/2022)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/19daIzTN0TAi0snwhE3AyNXpI_AcT4TYj/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to Quantum Optics&lt;/a&gt; (Last Update 12/09/2022)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;amo-physics&#34;&gt;AMO physics&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/files/notes/Atomic%20Optics.pdf&#34; style=&#34;color:#285d93&#34;&gt; Atomic Optics &lt;/a&gt; (Last Update 12/9/2022)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1LW8s9JVVqhjC0LdPlg5b3s5X9lbSlfgG/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atomic Optics&lt;/a&gt; (Last Update 09/26/2023)
+&lt;a href=&#34;https://drive.google.com/file/d/1nou9lQEH2ILyHvhcnyMQBkw6q545OlHP/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atomic Optics&lt;/a&gt; (Last Update 09/26/2023)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;classical-mechanics&#34;&gt;Classical Mechanics&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;h4 id=&#34;spum101&#34;&gt;SPUM101&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L1.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 1 &lt;/a&gt;: Hamilton principle, Lagrangian Mechanics.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L2.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 2 &lt;/a&gt;: Conservation Law, momentum.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L3.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 3 &lt;/a&gt;: Integration of the equation of motion, angular momentum.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L4.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 4 &lt;/a&gt;: Small oscillation, harmonic approximation, Forced oscillation, damped oscillation.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L5.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 5 &lt;/a&gt;: Forced oscillation under frictions, dissipative function.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L6.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 6 &lt;/a&gt;: Rigid body dynamics, rotating frame.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L7.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 7 &lt;/a&gt;: Gauge invariance of Lagrangian, Hamiltonian mechanics.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/Lecture-of-physics-UM/SPUM101/spum%20101/SPUM101_L8.pdf&#34; style=&#34;color:#285d93&#34;&gt; Lecture 8 &lt;/a&gt;: From Hamiltonian mechanics to classical statistical mechanics.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1rxMTinrbs487GaV4SOgjaP8of6_saIS3/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 1&lt;/a&gt;: Hamilton principle, Lagrangian Mechanics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1PNzPkzvoX3c4jvH3UMJ-5159Gu5bVcze/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 2&lt;/a&gt;: Conservation Law, momentum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1fuvb1GCR3YeTzoeCmfPvlRroiOu1sKE0/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 3&lt;/a&gt;: Integration of the equation of motion, angular momentum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1IybXn95bTY9Clw0wzKUh8de8NYG7BN6i/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 4&lt;/a&gt;: Small oscillation, harmonic approximation, Forced oscillation, damped oscillation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ewxYdGQxl55RLO-Pi17Monl0qbsDOByS/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 5&lt;/a&gt;: Forced oscillation under frictions, dissipative function.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1W_2f2MPn3oIHqWUv-ClwUM2hFSKcOwmy/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 6&lt;/a&gt;: Rigid body dynamics, rotating frame.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ypdopl_oSQJrV1yvvKGydnwzf_Uf4oWX/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 7&lt;/a&gt;: Gauge invariance of Lagrangian, Hamiltonian mechanics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1CuYpN0Vp-c8kKyC-t_9JQ9T_hSGJpxaw/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 8&lt;/a&gt;: From Hamiltonian mechanics to classical statistical mechanics.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
 &lt;h4 id=&#34;the-variational-principle-of-mechanics&#34;&gt;The Variational Principle of Mechanics&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%201.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_1 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%202&amp;3.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_2&amp;amp;3 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%204.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_4 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%205.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_5 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%206.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_6 &lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/TVPM/TVPM%20notes%207.pdf&#34; style=&#34;color:#285d93&#34;&gt; TVPM_notes_7 &lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1VqZ9N93NbARU-5jRe10ZnlwKfE4F3Za_/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1PdRAcbQXeg9GbgIlqAXaaoStP8G9g5e6/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_2&amp;amp;3&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Lz3E6EfkFalULG9KsEK7Ong_o2dqsFTa/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_4&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1KjZ6bec-1FiIs-Lq6GsvySrjHLIdUOH9/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_5&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Fyfh3hz2pTWlv3HS36fYgsif9ZZ6NMSt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_6&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1yPw9cJxpd5we-4mmaWD4BKoPBi_6-L21/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_7&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;classical-electrodynamics&#34;&gt;Classical Electrodynamics&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/EM/EM.pdf&#34; style=&#34;color:#285d93&#34;&gt; EM_notes &lt;/a&gt; (&lt;strong&gt;277 MB&lt;/strong&gt;, Last Update 8/9/2022)&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/158MbdFyZVI6fi5JZQbqKK_zQqzJ2O0Vn/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EM_notes&lt;/a&gt; (&lt;strong&gt;277 MB&lt;/strong&gt;, Last Update 8/9/2022)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;quantum-mechanics&#34;&gt;Quantum Mechanics&lt;/h3&gt;
 &lt;blockquote&gt;
 &lt;h4 id=&#34;quantum-mecahnics-i&#34;&gt;Quantum Mecahnics I&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/QM/Quantum%20Mechanics%20notes%201.pdf&#34; style=&#34;color:#285d93&#34;&gt; QM_I_1 &lt;/a&gt;: Fundamental principles.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/QM/Quantum%20Mechanics%20notes%202.pdf&#34; style=&#34;color:#285d93&#34;&gt; QM_I_2 &lt;/a&gt;: Fundamental principles, quantum dynamics.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1GaQvbruVP8XiwrM8vdbvIOVQEMlHJHDD/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QM_I_1&lt;/a&gt;: Fundamental principles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1LX_FwxuPngAoC-6qrl1YGDA7qgJhDQ7C/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QM_I_2&lt;/a&gt;: Fundamental principles, quantum dynamics.&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;quantum-mechanics-ii&#34;&gt;Quantum Mechanics II&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/QM/QM2.pdf&#34; style=&#34;color:#285d93&#34;&gt; QM_II &lt;/a&gt;: Quantum dynamics, angular momentum. (&lt;strong&gt;176 MB&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1n0A1csnyi1JdIqE-WFzHOn-7kL4Zicat/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QM_II&lt;/a&gt;: Quantum dynamics, angular momentum. (&lt;strong&gt;176 MB&lt;/strong&gt;)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;h4 id=&#34;quantum-mechanics-iii&#34;&gt;Quantum Mechanics III&lt;/h4&gt;
 &lt;blockquote&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/QM/QM3.pdf&#34; style=&#34;color:#285d93&#34;&gt; QM_III &lt;/a&gt;: Applications, approximation methods, scattering. (&lt;strong&gt;395 MB&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/11NYn6SqdxoMCBQomCoezsP-v-M9g-O6S/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QM_III&lt;/a&gt;: Applications, approximation methods, scattering. (&lt;strong&gt;395 MB&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;relativistic-quantum-mechanics&#34;&gt;Relativistic Quantum Mechanics&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ULMLPkvepVnn6v48Prnd6JipxOOS2mwa/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Relativistic Quantum Mechanics&lt;/a&gt;: Dirac Equation&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;abstract-algebra&#34;&gt;Abstract Algebra&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;a href=&#34;https://uofmacau-my.sharepoint.com/personal/db92820_umac_mo/Documents/course-in-um/OTHER/BOOKS&amp;NOTES/notes/AA/AA.pdf&#34; style=&#34;color:#285d93&#34;&gt; AA_notes &lt;/a&gt; (&lt;strong&gt;29.9 MB&lt;/strong&gt;, Last Update 5/10/2022)&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;mathematical-methods-in-physics&#34;&gt;Mathematical Methods in Physics&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;tbc.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h3 id=&#34;thermodynamics-and-statistical-mechanics&#34;&gt;Thermodynamics and Statistical Mechanics&lt;/h3&gt;
-&lt;blockquote&gt;
-&lt;p&gt;tbc.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1eAs_MTKZAWWwxLWjdvyx0eTpkTKlV3AX/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AA_notes&lt;/a&gt; (&lt;strong&gt;29.9 MB&lt;/strong&gt;, Last Update 5/10/2022)&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h3 id=&#34;solid-state-physics&#34;&gt;Solid State Physics&lt;/h3&gt;
 &lt;blockquote&gt;
-&lt;p&gt;tbc.&lt;/p&gt;
+&lt;p&gt;Pending&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;mathematical-methods-in-physics&#34;&gt;Mathematical Methods in Physics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TBC.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;thermodynamics-and-statistical-mechanics&#34;&gt;Thermodynamics and Statistical Mechanics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TBC.&lt;/p&gt;
 &lt;/blockquote&gt;
 </description>
     </item>

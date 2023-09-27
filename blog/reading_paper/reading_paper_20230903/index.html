@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: September 27, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Jiheng Duan 段繼恆" />
+
+
+
+
+
+  
+
+<meta name="description" content="Cherent Manipulation of Coupled Electron Spins in Semiconductor Quantum Dots" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/" />
+<link rel="canonical" href="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Jiheng Duan" />
+<meta property="og:url" content="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20230903/" />
+<meta property="og:title" content="Reading Paper 20230903 | Jiheng Duan" />
+<meta property="og:description" content="Cherent Manipulation of Coupled Electron Spins in Semiconductor Quantum Dots" /><meta property="og:image" content="https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-09-03T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-09-03T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Reading Paper 20230903 | Jiheng Duan</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="38025fd1d2f69c1b04b536689e110550" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#research"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#blog"><span>Blog</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Miscellany</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#SPUM"><span>SPUM</span></a>
+              
+                <a class="dropdown-item" href="/#editing"><span>Minecraft & Editing</span></a>
+              
+                <a class="dropdown-item" href="/#REMS"><span>REMS SMP</span></a>
+              
+                <a class="dropdown-item" href="/miscellany/connection"><span>Friends</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/CV.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/xueduanle" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Reading Paper 20230903</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Jiheng Duan 段繼恆</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Sep 3, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/blog/">Blog</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="cherent-manipulation-of-coupled-electron-spins-in-semiconductor-quantum-dots">Cherent Manipulation of Coupled Electron Spins in Semiconductor Quantum Dots</h1>
+<p>Jiheng Duan, <a href="mailto:jiheng.duan@rochester.edu">jiheng.duan@rochester.edu</a>, 09/03/2023</p>
+<h2 id="paper-information">Paper Information</h2>
+<ul>
+<li>DOI: 10.1126/science.111.6955</li>
+<li>Date: 30, Sept., 2005</li>
+<li>Author: J. R. Petta, A. C. Johnson, J. M. Taylor, E. A. Laird, A. Yacoby, M. D. Lukin, C. M. Marcis, M. P. Hanson, A. C. Gossard</li>
+</ul>
+<h2 id="motivation">Motivation</h2>
+<ol>
+<li>Using electrons as qubits in semiconductor devices to encode information.</li>
+<li>Achieve qubit initialization, measurement, coherent control ($\sqrt{\text{SWAP}}$ gate)</li>
+<li>Characterizing $T_1$ and $T_2$.</li>
+<li>Analyzing decoherence sources.</li>
+</ol>
+<h2 id="spin-manipulation-and-measurement">Spin manipulation and measurement</h2>
+<h4 id="devices-infor">Devices infor</h4>
+<p>See Fig.1.</p>
+<blockquote>
+<ul>
+<li><strong>Material</strong>: GaAs/AlGaAs (small electron effective mass).</li>
+<li><strong>Fabrication</strong>: Molecular beam epitaxy.</li>
+<li><strong>Density of electron gas</strong>: $n \sim 2\times 10^{11} \text{cm}^{-2}$ under $100 \text{nm}$ of the surface.</li>
+<li><strong>Electron temperature</strong>: $T_e\sim 135 \text{mK}$.</li>
+<li><strong>Two tunnel barries</strong> (control left gate voltage $V_L$ and right gate voltage $V_R$) control the detuning to allow electron move in or out the dot.</li>
+<li><strong>Detuning parameter</strong> $\epsilon \propto V_R - V_L$.</li>
+<li>The detuning parameter $\epsilon$ controls the system state.</li>
+</ul>
+</blockquote>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_56ef3120207d2a076612c4e04cd774fe.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_a5ed98b836e1978ec1d6f323210daa32.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20230903/image_hu5d34b432a486e637a0a45bea88671a46_300571_56ef3120207d2a076612c4e04cd774fe.webp"
+               width="705"
+               height="435"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h4 id="qubit-infor">Qubit infor</h4>
+<p>See Fig.2.</p>
+<blockquote>
+<ul>
+<li>System cycle: shown in Fig.2A.</li>
+<li>Computational subspace: $S$ and $T_0$ ($m_s = 0$), which are $(|\downarrow\uparrow\rangle - |\uparrow\downarrow\rangle)/\sqrt{2}$ and $(|\downarrow\uparrow\rangle + |\uparrow\downarrow\rangle)/\sqrt{2}$.</li>
+<li>Measurement: using quantum point contact sensor. Details see next section.</li>
+<li>Manipulation: by change detuning $\epsilon$; A fixed z-direction B-field to induce Zeeman splitting.</li>
+<li>Four significant region (see Fig.2B):</li>
+</ul>
+<blockquote>
+<ul>
+<li>$\epsilon&gt;0$: system at $(0,2)S$, two spin are in one potential wall. $(m,n)$ is a notation of charge state, where $m,n$ represents the number of electrons inside the left and right dots, respectively.</li>
+<li>$\epsilon_{T+} \approx \epsilon &lt; 0$: $S$ state resonant with $T_+$ state.</li>
+<li>$\epsilon_{T+} &gt; \epsilon$: $S$ state hybrids with $T_0$, with a exchange interaction strength $J(\epsilon)$.</li>
+<li>$\epsilon &laquo; J(0)$: Avoid crossing induced by spin-nuclei hyperfine interaction, with spacing $J(\epsilon) = g^*\mu_B B_{nuc} \rightarrow 0$. In this case, $S$ and $T_0$ are mixed by hyperfine field. The eigenstates of hyperfine interaction $|\downarrow\uparrow\rangle$ and $|\uparrow\downarrow\rangle$ are not mixed. See Fig.2D</li>
+</ul>
+</blockquote>
+<ul>
+<li>System Hamiltonian
+$$
+H = \begin{bmatrix}
+J(\epsilon) &amp; \Delta B^{z}<em>{\text{nuc}} \
+\Delta B^{z}</em>{\text{nuc}} &amp; 0
+\end{bmatrix}
+$$
+where $\Delta B^{z}<em>{\text{nuc}} $ is teh difference in random hyperfine fields along the applied external B-field direction. In this paper, $B</em>{\text{nuc}} \sim 1$ to $5$ mT.</li>
+</ul>
+</blockquote>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_26b99ca970194710b10af70e1a76f542.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_84cf1b5e94ceec9fd03dda133f09c129.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20230903/image-1_hu3774d6ac4b7cd9c56c2d46eabca96f1b_515850_26b99ca970194710b10af70e1a76f542.webp"
+               width="678"
+               height="733"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h4 id="measurement">Measurement</h4>
+<p>Measurement, which is a projective measurement, is based on the spin-blockaded transition technique. A Singlet-Triplet qubit state (spin state) measurement is achieved by switching the detuning $\epsilon$ from negative value to positive, which will map $S$ to $(0,2)S$ charge state and $T_0$ (or $T_\pm$, depends on which state you are considered as computational state) remain in $(1,1)$, a spin-blocked configuration. The difference in $(0,2)$ and $(1,1)$ can be distinguished by quantum point contact (QPC), shown in the region diagram in Fig.1B.</p>
+<p>The QPC sensor is used to distinguish charge states, which says the charge state (or more specificity, the number of electrons inside the neighbor quantum dots) of the electron inside a quantum dots will affect the conductance $g_s$ of a  gate, indicated by the black arrow in Fig.1A.</p>
+<h4 id="single-qubit-manipulation">Single qubit manipulation</h4>
+<h5 id="bloch-sphere">Bloch sphere</h5>
+<p>Shown in Fig.3A, we choose $|0\rangle = |S\rangle$ and $|1\rangle = |T_0\rangle$. The eigenstates of hyperfine interaction are place at two points on the intersection points of sphere and x-axis.</p>
+<h5 id="spin-swap">Spin SWAP</h5>
+<p>Pulse sequences are shown in Fig.3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_fc33152478dd4704b58694239735c764.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_c4a7e3ed2310e30c130ef7d009bcd414.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20230903/image-2_hu1bb2674fbd0d7bc1800a4a41d6c86e85_324042_fc33152478dd4704b58694239735c764.webp"
+               width="760"
+               height="319"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h5 id="rabi-oscillations-in-downarrowuparrowrangle-and-uparrowdownarrowrangle-basis">Rabi oscillations in $|\downarrow\uparrow\rangle$ and $|\uparrow\downarrow\rangle$ basis</h5>
+<p>Pulse sequences are shown in Fig.4</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_ea8f9b5e776627998bbe0f40ba0219e7.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_e2ce595136565cc7dedf1a068940a250.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20230903/image-3_hudb495fcb357e2470385cdabbffcf91de_723165_ea8f9b5e776627998bbe0f40ba0219e7.webp"
+               width="760"
+               height="613"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h5 id="t2-measurement-spin-echo">T2 measurement, spin echo</h5>
+<p>Pulse sequences are shown in Fig.5</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_26b38bea825e4cf2098fbdb82d65c929.webp 400w,
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_f8f75fc45d669ff7500b404bd6920c42.webp 760w,
+               /blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20230903/image-4_hud054121a7155fa7efa6ce3acd1349fd3_621639_26b38bea825e4cf2098fbdb82d65c929.webp"
+               width="760"
+               height="595"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h4 id="decoherence">Decoherence</h4>
+<p>Spin qubits have a long $T_1$ which is about tens of ms. But it has a really short $T_2$, which is measured by spin echo in this paper wich a value $T_2 \sim 10 ns$.</p>
+<p>The reason for such short dephasing time is due to the hyperfine interaction between spin and nuclei.</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/academic/">Academic</a>
+  
+  <a class="badge badge-light" href="/tag/quantum-physics/">Quantum Physics</a>
+  
+  <a class="badge badge-light" href="/tag/quantum-information-science/">Quantum Information Science</a>
+  
+  <a class="badge badge-light" href="/tag/reading-paper/">Reading Paper</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230903%2F&amp;text=Reading&#43;Paper&#43;20230903" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230903%2F&amp;t=Reading&#43;Paper&#43;20230903" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Reading%20Paper%2020230903&amp;body=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230903%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230903%2F&amp;title=Reading&#43;Paper&#43;20230903" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Reading&#43;Paper&#43;20230903%20https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230903%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20230903%2F&amp;title=Reading&#43;Paper&#43;20230903" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://runawayfancy.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huad667b7b6dbf53cbe0c0f0a497b901e3_3057456_270x270_fill_q75_lanczos_center.jpg" alt="Jiheng Duan 段繼恆"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://runawayfancy.github.io/">Jiheng Duan 段繼恆</a></h5>
+      <h6 class="card-subtitle">First year PhD student</h6>
+      <p class="card-text">My research interests include superconducting quantum computing, high fidelity two-qubit gate, and distortion correction of digital signals.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiheng.duan@rochester.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/xueduanle" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=cHOxggIAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/RunawayFancy" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jiheng-duan-232246266/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/CV.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    Copyright © 2023 Jiheng Duan. This work is licensed under MIT license
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/en/js/wowchemy.min.fa71bfdd82ca5b7ea4a46c3c3d1b03fa.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

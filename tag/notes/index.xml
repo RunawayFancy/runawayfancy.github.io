@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notes | Jiheng Duan</title>
+    <link>https://runawayfancy.github.io/tag/notes/</link>
+      <atom:link href="https://runawayfancy.github.io/tag/notes/index.xml" rel="self" type="application/rss+xml" />
+    <description>Notes</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 08 Jul 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
+      <title>Notes</title>
+      <link>https://runawayfancy.github.io/tag/notes/</link>
+    </image>
+    
+    <item>
+      <title>Notes</title>
+      <link>https://runawayfancy.github.io/blog/notes/</link>
+      <pubDate>Sat, 08 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/notes/</guid>
+      <description>&lt;blockquote&gt;
+&lt;h3 id=&#34;about&#34;&gt;About&lt;/h3&gt;
+&lt;p&gt;I collected and summarized several notes from physics and mathematics courses during my undergraduate learning period. Most of them are referred to famous textbooks and lecture notes of online open courses. Unfortunately, &lt;strong&gt;most of the notes are handwritten&lt;/strong&gt; and maybe I will rebuild them into $\LaTeX$ versions.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;selected-topics&#34;&gt;Selected topics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;directsuper-exchange-interaction-and-iswap-gating&#34;&gt;Direct/Super exchange interaction and ISWAP gating&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1_GrvXQIam8_JxRtpd1ua-9VjJvJLq9lF/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;SE-Interaction and ISWAP gate&lt;/a&gt; (Last Update 12/09/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;displaced-fock-state&#34;&gt;Displaced Fock State&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1TW4Aa5vV4gDeeVWHc4TxTRwgDnveYTyB/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Displaced Fock State&lt;/a&gt; (Last Update 12/09/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;h4 id=&#34;winger-spherical-tensor&#34;&gt;Winger, Spherical Tensor&lt;/h4&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1bjeFasHTGWCx_OyqRzQ_W0HdHIcH-iJY/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Winger, Spherical Tensor&lt;/a&gt; (Last Update 09/26/2023)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;quantum-optics&#34;&gt;Quantum Optics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/19daIzTN0TAi0snwhE3AyNXpI_AcT4TYj/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Introduction to Quantum Optics&lt;/a&gt; (Last Update 12/09/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;amo-physics&#34;&gt;AMO physics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1LW8s9JVVqhjC0LdPlg5b3s5X9lbSlfgG/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atomic Optics&lt;/a&gt; (Last Update 09/26/2023)
+&lt;a href=&#34;https://drive.google.com/file/d/1nou9lQEH2ILyHvhcnyMQBkw6q545OlHP/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Atomic Optics&lt;/a&gt; (Last Update 09/26/2023)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;classical-mechanics&#34;&gt;Classical Mechanics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;spum101&#34;&gt;SPUM101&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1rxMTinrbs487GaV4SOgjaP8of6_saIS3/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 1&lt;/a&gt;: Hamilton principle, Lagrangian Mechanics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1PNzPkzvoX3c4jvH3UMJ-5159Gu5bVcze/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 2&lt;/a&gt;: Conservation Law, momentum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1fuvb1GCR3YeTzoeCmfPvlRroiOu1sKE0/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 3&lt;/a&gt;: Integration of the equation of motion, angular momentum.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1IybXn95bTY9Clw0wzKUh8de8NYG7BN6i/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 4&lt;/a&gt;: Small oscillation, harmonic approximation, Forced oscillation, damped oscillation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ewxYdGQxl55RLO-Pi17Monl0qbsDOByS/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 5&lt;/a&gt;: Forced oscillation under frictions, dissipative function.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1W_2f2MPn3oIHqWUv-ClwUM2hFSKcOwmy/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 6&lt;/a&gt;: Rigid body dynamics, rotating frame.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ypdopl_oSQJrV1yvvKGydnwzf_Uf4oWX/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 7&lt;/a&gt;: Gauge invariance of Lagrangian, Hamiltonian mechanics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1CuYpN0Vp-c8kKyC-t_9JQ9T_hSGJpxaw/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Lecture 8&lt;/a&gt;: From Hamiltonian mechanics to classical statistical mechanics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;the-variational-principle-of-mechanics&#34;&gt;The Variational Principle of Mechanics&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1VqZ9N93NbARU-5jRe10ZnlwKfE4F3Za_/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_1&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1PdRAcbQXeg9GbgIlqAXaaoStP8G9g5e6/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_2&amp;amp;3&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Lz3E6EfkFalULG9KsEK7Ong_o2dqsFTa/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_4&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1KjZ6bec-1FiIs-Lq6GsvySrjHLIdUOH9/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_5&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1Fyfh3hz2pTWlv3HS36fYgsif9ZZ6NMSt/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_6&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1yPw9cJxpd5we-4mmaWD4BKoPBi_6-L21/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TVPM_notes_7&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;classical-electrodynamics&#34;&gt;Classical Electrodynamics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/158MbdFyZVI6fi5JZQbqKK_zQqzJ2O0Vn/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;EM_notes&lt;/a&gt; (&lt;strong&gt;277 MB&lt;/strong&gt;, Last Update 8/9/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;quantum-mechanics&#34;&gt;Quantum Mechanics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;h4 id=&#34;quantum-mecahnics-i&#34;&gt;Quantum Mecahnics I&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1GaQvbruVP8XiwrM8vdbvIOVQEMlHJHDD/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QM_I_1&lt;/a&gt;: Fundamental principles.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1LX_FwxuPngAoC-6qrl1YGDA7qgJhDQ7C/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QM_I_2&lt;/a&gt;: Fundamental principles, quantum dynamics.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;quantum-mechanics-ii&#34;&gt;Quantum Mechanics II&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1n0A1csnyi1JdIqE-WFzHOn-7kL4Zicat/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QM_II&lt;/a&gt;: Quantum dynamics, angular momentum. (&lt;strong&gt;176 MB&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;quantum-mechanics-iii&#34;&gt;Quantum Mechanics III&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/11NYn6SqdxoMCBQomCoezsP-v-M9g-O6S/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;QM_III&lt;/a&gt;: Applications, approximation methods, scattering. (&lt;strong&gt;395 MB&lt;/strong&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&#34;relativistic-quantum-mechanics&#34;&gt;Relativistic Quantum Mechanics&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://drive.google.com/file/d/1ULMLPkvepVnn6v48Prnd6JipxOOS2mwa/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Relativistic Quantum Mechanics&lt;/a&gt;: Dirac Equation&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;abstract-algebra&#34;&gt;Abstract Algebra&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://drive.google.com/file/d/1eAs_MTKZAWWwxLWjdvyx0eTpkTKlV3AX/view?usp=sharing&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;AA_notes&lt;/a&gt; (&lt;strong&gt;29.9 MB&lt;/strong&gt;, Last Update 5/10/2022)&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;solid-state-physics&#34;&gt;Solid State Physics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Pending&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;mathematical-methods-in-physics&#34;&gt;Mathematical Methods in Physics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TBC.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;thermodynamics-and-statistical-mechanics&#34;&gt;Thermodynamics and Statistical Mechanics&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;TBC.&lt;/p&gt;
+&lt;/blockquote&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
