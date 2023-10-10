@@ -5,12 +5,236 @@
     <link>https://runawayfancy.github.io/</link>
       <atom:link href="https://runawayfancy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiheng Duan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 27 Sep 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
       <title>Jiheng Duan</title>
       <link>https://runawayfancy.github.io/</link>
     </image>
+    
+    <item>
+      <title>Reading Paper 20231001</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231001/physreva.108.032615_jiheng_duan/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231001/physreva.108.032615_jiheng_duan/</guid>
+      <description>&lt;h1 id=&#34;microwave-driven-iswap-like-gate-for-ﬁxed-frequency-superconducting-transmon-qutrits&#34;&gt;Microwave-driven iSWAP-like gate for ﬁxed-frequency superconducting transmon qutrits&lt;/h1&gt;
+&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 10/01/2023&lt;/p&gt;
+&lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DOI: 10.1103/PhysRevA.108.032615&lt;/li&gt;
+&lt;li&gt;Date: 26, Sept., 2023&lt;/li&gt;
+&lt;li&gt;Author: Peng Xu, Qingli Jing, Peng Zhao, Yang Yu&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;High fidelity, zz-free, low leakage all microwave two qutrit entanglement gate, iSWAP like.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;computational-subspace-and-coupling&#34;&gt;Computational subspace and coupling&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image.png&#34; alt=&#34;Alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Transmon-Resonator-Transmon system&lt;/li&gt;
+&lt;li&gt;System Hamiltonian&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H_s = \sum_j \left( \omega_j q_j^\dagger q_j + \frac{\alpha}{2} q^\dagger_j q^\dagger_j q_j q_j \right) + \omega_r c^\dagger c + \sum_j g_j(q^\dagger_j + q_j)(c^\dagger + c)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Driving term&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H_d = \sum_j \Omega_j \cos(\omega_j^d)(q^\dagger_j + q_j)
+$$
+where $\omega_j^d \approx 2\omega_j + \alpha_j - \omega_r$, $\Omega_j$ is the pulse amplitude.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Effective Hamiltonian is obtained by doing the Schrieffer-Wolf transformation twice, where we get effective coupling between Qj-R ($J_j$) and Q1-Q2 (e.g., virtual photon exchange through state $|001\rangle$, $J_{001}$), respectively. See Eq.(4) and Eq.(5) in the paper.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H_I = J_{001}\left( |200\rangle\langle020| + |020\rangle\langle200| \right)
+$$
+Where the reduced two-level qutrit is still far detuned from the resonator $|2\omega_j + \alpha_j - 2\omega_r|$.&lt;/p&gt;
+&lt;h2 id=&#34;iswap-like-gate&#34;&gt;iSWAP like gate&lt;/h2&gt;
+&lt;p&gt;The entanglement gate looks like
+$$
+i\text{SWAP}_\text{like} = \left[
+\begin{matrix}
+1 &amp;amp; 0 &amp;amp; 0 &amp;amp; 0\
+0 &amp;amp; 0 &amp;amp; -i &amp;amp; 0\
+0 &amp;amp; -i &amp;amp; 0 &amp;amp; 0\
+0 &amp;amp; 0 &amp;amp; 0 &amp;amp; e^{-i\phi}
+\end{matrix}
+\right]
+$$&lt;/p&gt;
+&lt;h3 id=&#34;static-zz&#34;&gt;Static ZZ&lt;/h3&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image-1.png&#34; alt=&#34;Alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Suppressing to less than 50 kHz for the first excited state, shown in (a)&lt;/li&gt;
+&lt;li&gt;Suppressing to as small as 50 kHz for the second excited state, shown in (b).&lt;/li&gt;
+&lt;li&gt;Trade-off should be made from coupling strength ($g_j$) and ZZ coupling (choice of $\omega_1$, $\omega_2$).&lt;/li&gt;
+&lt;li&gt;High coupling strength decrease gate time, but increase ZZ couping.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;driving-pulse&#34;&gt;Driving Pulse&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;The pulse is consisted with a cosine oscillating carrier and a Gaussian envelope, which provides smooth rising (lowering) edges.&lt;/li&gt;
+&lt;li&gt;The microwave pulse:&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+\Omega_j^d(t) = \Omega_j G_j^d(t) \cos\left( \omega_j^d t \right)
+$$
+where
+$$
+G_j^d(t) = \left{
+\begin{array}{ll}
+\frac{e^{-(t - t_r)^2/(2\delta^2)} - e^{-t_r^2/(2\delta^2)}}{1 - e^{-t_r^2/(2\delta^2)}}, &amp;amp; t \le t_r;\
+1 &amp;amp; t_r&amp;lt; t &amp;lt; t_p - t_r;\
+\frac{e^{-(t - (t_p - t_r))^2/(2\delta^2)} - e^{-t_r^2/(2\delta^2)}}{1 - e^{-t_r^2/(2\delta^2)}}, &amp;amp; t - t_r \le t \le t_p;\
+0 &amp;amp; others
+\end{array}
+\right.
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;The parameters of a exampled simulation can be found in TABLE I. and TABLE 2. The gate time of that simulation is $t_g = 280 ns$ when $\delta = 30 ns$ (which is the variance of the Gaussian, controls the width of the Gaussian).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;gate-fidelity&#34;&gt;Gate Fidelity&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Improved simulation result by increasing the ramp time $t_r$: $F \approx 99.9%$&lt;/li&gt;
+&lt;li&gt;The gate fidelity increase with the quality factor of the resonator. See Fig.6 (c).&lt;/li&gt;
+&lt;li&gt;The decoherence affected gate error are shown in Fig.6 (c) and (d).&lt;/li&gt;
+&lt;li&gt;The discussion of leakage error is shown in Appendix C.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reading Paper 20231001</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231009/npj_quantum_s41534-022-00594-4_jihengduan/</link>
+      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231009/npj_quantum_s41534-022-00594-4_jihengduan/</guid>
+      <description>&lt;h1 id=&#34;demonstration-of-universal-control-between-non-interacting-qubits-using-the-quantum-zeno-effect&#34;&gt;Demonstration of universal control between non-interacting qubits using the Quantum Zeno effect&lt;/h1&gt;
+&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 10/09/2023&lt;/p&gt;
+&lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DOI: 10.1038/s41534-022-00594-4&lt;/li&gt;
+&lt;li&gt;Date: 2022&lt;/li&gt;
+&lt;li&gt;Author: E. Blumenthal, C. Mor, A. A. Diringer, L. S. Martin, P. Lewalle, D. Burgarth, K. B. Whaley, and S. Hacohen-Gourgy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Using superconducting qubit to demonstrate quantum zeno effect.&lt;/p&gt;
+&lt;h2 id=&#34;quantum-zeno-effect&#34;&gt;Quantum Zeno effect&lt;/h2&gt;
+&lt;p&gt;An effect lies on the boundary between coherent and incoherent control of a quantum system, in which frequent measurements effectively freeze the system dynamics, holding the system at an eigenstate of the measurement observable.&lt;/p&gt;
+&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image.png&#34; alt=&#34;Alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A qutrit and a qubit inside a resonator, no interaction between qutrit and qubit.&lt;/li&gt;
+&lt;li&gt;See Fig. 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;$q_1$: qutrit, $q_2$: qubit&lt;/li&gt;
+&lt;li&gt;$\varepsilon$ is the microwave pulse driving the resonator, at frequency $\omega_{fe}$&lt;/li&gt;
+&lt;li&gt;$\omega_{fe}$ is the resonator frequency when $|q_1, q_2\rangle = |f,e\rangle$, the dispersive shift.&lt;/li&gt;
+&lt;li&gt;$\Omega_R$ is the microwave pulse driving the qutrit state $|e\rangle \leftrightarrow |f\rangle$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The driving of resonator is effective to be a measurement of the projection operator $P = 1 - |fe\rangle\langle fe|$ (frequently excite the cavity and measure at frequency $\omega_{fe}$, equivalent to frequently apply the measurement of the projection operator $P$).&lt;/li&gt;
+&lt;li&gt;The Zeno Hamiltonian becomes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H_{\text{Zeno}} = PHP = i\hbar \frac{\Omega_R}{2} \left( |eg\rangle\langle fg | - | fg \rangle \langle eg | \right)
+$$
+where $H = \frac{1}{2} \hbar \Omega_R \left( |e \rangle\langle f| - |f \rangle\langle e| \right) \otimes \left(g | \rangle\langle g| + |e \rangle\langle e| \right)$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We see the Zeno Hamiltonian describe a Rabi between $|eg\rangle \leftrightarrow |fg\rangle$, and block the $|ee\rangle \leftrightarrow |fe\rangle$ transition.&lt;/li&gt;
+&lt;li&gt;This restrict the system into a computational subspace, shown as the color region in Fig. 1(b).&lt;/li&gt;
+&lt;li&gt;This can also be done for multiple qubit system. $P = 1 - |feee\cdots\rangle\langle feee\cdots|$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;experiment&#34;&gt;Experiment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The system Hamiltonian without Zeno drive and Rabi drive is a dispersive Hamiltonian in the interaction picture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H_{\text{disp}}\hbar = \left( \Chi_1 |e_1\rangle\langle e_1 | + \Chi_2 | e_2 \rangle\langle e_2 | + \Chi_f | f \rangle\langle f| \right) a^\dagger a + \alpha_1 |f\rangle\langle f|
+$$
+where $\Chi_i$ is the dispersive shift, $\alpha_i$ is the anharmonicity.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Despite the Zeno drive at $\omega_{fe}$, a symmetric drive which is symmetric to the Zeno measurement drive frequency with respect to $\omega_{eg}$ and $\omega_{ge}$ are added.&lt;/li&gt;
+&lt;li&gt;This symmetric drive balances the phase accumulation, such that this no longer generates entanglement.&lt;/li&gt;
+&lt;li&gt;The system Hamiltonian with Zeno and symmetric driving under the rotating frame of $\omega_{gg}$ is&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H/\hbar = H_{disp}/\hbar + i\varepsilon \left( a e^{-i(\Chi_f + \Chi_2)t} - a^\dagger e^{i(\Chi_f + \Chi_2)t} \right) + i\varepsilon \left( a e^{-i(\Chi_2 - \Chi_f)t} - a^\dagger e^{i(\Chi_2 - \Chi_f)t} \right)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Experiment result could refer to this paper. Here we skip it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;residual-effects-of-the-zeno-drive&#34;&gt;Residual effects of the Zeno drive&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refer to the Sec. Residual effect of the Zeno drive&lt;/li&gt;
+&lt;li&gt;The coherence will be lost due to measurement-induced dephasing at a rate.&lt;/li&gt;
+&lt;li&gt;The Zeno drive only will cause entanglement, which is the reason for adding additional symmetric drive.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Friends and Connections</title>
@@ -943,6 +1167,9 @@ where the effective Hamiltonian $H_{eff}= g(L_{eng}\sigma_+ + L_{eng}^\dagger \s
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://runawayfancy.github.io/research/qa_sha-1/</guid>
       <description>&lt;p&gt;Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols. We propose an algorithm that takes advantage of entangled quantum states for concurrent seeding of candidate disturbance vectors, out of which the one entailing collision is selected through a combination of quantum search, phase gating, diffusion gating, and information feedbacks from classical computing machinery. The complexity reduction is shown to be on the order of $O(2^{n/2+1})$ where n is the number of qubits encoding addresses. We demonstrate the practicality of the proposed by an implementation scheme based on degenerate optical parametric oscillators.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jiheng Duan &lt;em&gt;et al&lt;/em&gt; 2023 Phys. Scr. 98 115106 10.1088/1402-4896/acfc79&lt;/li&gt;
+&lt;/ul&gt;
 
 
 

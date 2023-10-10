@@ -18,6 +18,9 @@
       <pubDate>Thu, 27 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://runawayfancy.github.io/research/qa_sha-1/</guid>
       <description>&lt;p&gt;Modern cryptographic protocols rely on sophisticated hash functions to generate quasi-unique numbers that serve as signatures for user authentication and other security verifications. The security could be compromised by finding texts hash-mappable to identical numbers, forming so-called collision attack. Seeding a disturbance vector in the hash mapping to obtain a successful collision is that a major focus of cryptography study in the past two decades to improve hash protocols. We propose an algorithm that takes advantage of entangled quantum states for concurrent seeding of candidate disturbance vectors, out of which the one entailing collision is selected through a combination of quantum search, phase gating, diffusion gating, and information feedbacks from classical computing machinery. The complexity reduction is shown to be on the order of $O(2^{n/2+1})$ where n is the number of qubits encoding addresses. We demonstrate the practicality of the proposed by an implementation scheme based on degenerate optical parametric oscillators.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Jiheng Duan &lt;em&gt;et al&lt;/em&gt; 2023 Phys. Scr. 98 115106 10.1088/1402-4896/acfc79&lt;/li&gt;
+&lt;/ul&gt;
 
 
 
