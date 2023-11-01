@@ -5,7 +5,7 @@
     <link>https://runawayfancy.github.io/</link>
       <atom:link href="https://runawayfancy.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Jiheng Duan</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png</url>
       <title>Jiheng Duan</title>
@@ -13,10 +13,365 @@
     </image>
     
     <item>
-      <title>Reading Paper 20231001</title>
-      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231001/physreva.108.032615_jiheng_duan/</link>
+      <title>Reading Paper 20231031</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/</link>
+      <pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/</guid>
+      <description>&lt;h1 id=&#34;identification-of-different-types-of-high-frequency-defects-in-superconducting-qubits&#34;&gt;Identification of Different Types of High-Frequency Defects in Superconducting Qubits&lt;/h1&gt;
+&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 10/31/2023&lt;/p&gt;
+&lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DOI: 10.1103/PRXQuantum.3.040332&lt;/li&gt;
+&lt;li&gt;Date: 2022&lt;/li&gt;
+&lt;li&gt;Author: Leonid V. Abdurakhimov, Imran Mahboob, Hiraku Toida, Kosuke Kakuyanagi, Yuichiro Matsuzaki, and Shiro Saito&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Using c-shunt Flux qubit to characterize high frequency TLS&lt;/li&gt;
+&lt;li&gt;Study two types TLS: charge noise and critical current noise&lt;/li&gt;
+&lt;li&gt;Experimentally verify the proposed qubit-TLS interaction model&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+&lt;p&gt;Some key concepts are collected from Sec.1 of this paper.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Possible TLS sources: tunneling atoms, dangling electronic bonds, impurity atoms, and trapped charge states.&lt;/li&gt;
+&lt;li&gt;A junction tunnel barrier is formed of an amorphous layer of aluminum oxide that hosts a large number of TLS defects&lt;/li&gt;
+&lt;li&gt;Normally, it is assumed that the qubit-defect interaction is caused by an electric field coupling between an electric dipole associated with a charge TLS defect and a microwave electric field generated across a Josephson junction&lt;/li&gt;
+&lt;li&gt;Characterizing method: qubit-TLS frequency matching, apply external E-field to change TLS frequency, adding strength&lt;/li&gt;
+&lt;li&gt;Measurement method: measure the avoid-crossing of the qubit frequency spectrum, qubit response to the Rabi drive, measuring qubit&amp;rsquo;s $T_1$, off-resonant drive (for fixed-frequency qubit, narrow band width: $\pm 25$ MHz)&lt;/li&gt;
+&lt;li&gt;For low-frequency TLS characterization method, the spin-locking pulse sequence (low-frequency spin-locking spectroscopy) method are used, focusing on low-frequency longitudinal nose.&lt;/li&gt;
+&lt;li&gt;This work make a complements to the spin-locking method as the reported method effectively probes a high-frequency transverse noise&lt;/li&gt;
+&lt;li&gt;Also, those population oscillations due to the non-resonant (dispersive) interaction between the qubit and detuned TLS defects can result in additional gate and measurement errors&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;key-idea-of-this-work&#34;&gt;Key idea of this work&lt;/h2&gt;
+&lt;p&gt;In this paper, they use strong resonant qubit drive method: the relaxation of a strongly driven qubit can be affected by the presence of an off- resonant high-frequency TLS defect due to the dynamic splitting of the qubit transition frequency, caused by the resonant ac Stark effect (Autler-Townes splitting), and the corresponding dynamic matching of qubit and TLS defect frequencies in the rotating frame.&lt;/p&gt;
+&lt;h3 id=&#34;two-types-of-defects&#34;&gt;Two types of defects&lt;/h3&gt;
+&lt;p&gt;The total Hamiltonian is given by
+$$
+H = H_q + H_{\text{TLS}} + H_I^{(\mu)} + H_d
+$$
+where $H_q$: qubit hamiltonian, $H_{\text{TLS}}$: TLS Hamiltonian, the interaction term for qubit-TLS interaction, $\mu\in{C,I}$ represents charge and critical current noise.&lt;/p&gt;
+&lt;h4 id=&#34;qubit-hamiltonian&#34;&gt;Qubit Hamiltonian&lt;/h4&gt;
+&lt;p&gt;For a c-shunt flux qubit, its intrinsic Hamiltonian with charge and critical current noise is&lt;/p&gt;
+&lt;p&gt;$$
+H = E_{C_S} (n + \delta n)^2 + 2E_J (1-\cos \phi) \ + \alpha E_J \left( 1 + \frac{\delta I_\alpha}{\alpha I_c} \right) [1+\cos(2\phi + 2\pi \delta f)]
+$$&lt;/p&gt;
+&lt;p&gt;where the notation and details can refer to Sec.2 A of this paper &lt;strong&gt;(suggested)&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;The second quantized qubit Hamiltonian is given by&lt;/p&gt;
+&lt;p&gt;$$
+H_q = \hbar \left( \omega_b + \frac{A}{2} \right) b^\dagger+b  + \frac{\hbar A}{2}(b^\dagger b)^2
+$$
+where
+$$
+\hbar A = \frac{8\alpha - 1}{4-8\alpha} E_{C_S}.
+$$
+The qubit frequency is now $\omega_1 = \omega_{01} = \omega_b+A$, and $\omega_{12} = \omega_b +2A$.&lt;/p&gt;
+&lt;h4 id=&#34;tls-hamiltonian&#34;&gt;TLS Hamiltonian&lt;/h4&gt;
+&lt;p&gt;The intrinsic Hamiltonian of a TLS is given by&lt;/p&gt;
+&lt;p&gt;$$
+H_{\text{TLS}} = \frac{1}{2} \hbar \omega_{\text{TLS}} \sigma_z
+$$&lt;/p&gt;
+&lt;h4 id=&#34;qubit-tls-interaction&#34;&gt;Qubit-TLS interaction&lt;/h4&gt;
+&lt;h5 id=&#34;charge-noise&#34;&gt;Charge noise&lt;/h5&gt;
+&lt;p&gt;The standard charge-fluctuation TLS defects&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Interaction type: beam-splitter-type interaction&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The qubit-TLS interaction is give by&lt;/p&gt;
+&lt;p&gt;$$
+H_I^{(C)} = i\hbar g_C (b^\dagger + b)
+$$
+where the coupling strength is given by
+$$
+g_C = \frac{1}{2} \delta n_{\text{TLS}} \sqrt{\frac{\omega_b E_{C_S}}{\hbar}}
+$$
+where the charge fluctuation is $\delta n_{\text{TLS}}$&lt;/p&gt;
+&lt;h5 id=&#34;critical-current-noise&#34;&gt;Critical current noise&lt;/h5&gt;
+&lt;p&gt;The TLS defects with a nonlinear coupling to the qubit mediated by critical-current fluctuations.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Reason:&lt;/strong&gt; As the thickness of the junction tunnel barrier is nonuniform, the tunneling of Copper pairs occurs through a discrete set nof conductance channels. Fluctuations in the charge configuration of a TLS defect can block on of the conductance channels, resulting in the fluctuations of the critical current&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Interaction type: three-wave-mixing interaction&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The qubit-TLS interacting Hamiltonian is given by&lt;/p&gt;
+&lt;p&gt;$$
+H_I^{(I)} = \hbar g_I^{(1)} \sigma_x (b^\dagger + b) + \hbar g_I^{(2)} \sigma_x (b^\dagger + b)^2
+$$&lt;/p&gt;
+&lt;p&gt;where the two coupling strength is given by
+$$
+g_I^{(1)} = -\pi \delta f \frac{\alpha}{\sqrt{1-2\alpha}} \left( \frac{\delta I_{\text{TLS}}}{\alpha I_c} \right) \sqrt{\frac{\omega_b E_J}{\hbar}}
+$$
+and
+$$
+g_I^{(2)} = -\frac{\alpha}{4-8\alpha} \left( \frac{\delta I_{\text{TLS}}}{\alpha I_c} \right) \omega_b
+$$&lt;/p&gt;
+&lt;p&gt;In this paper, the qubit is operated at the optimal flux bias point, which means $\delta g \approx 0$. Therefore, the critical current TLS-qubit interaction term is reduced to&lt;/p&gt;
+&lt;p&gt;$$
+H_I^{(I)} = \hbar g_I^{(2)} \sigma_x (b^\dagger + b)^2
+$$&lt;/p&gt;
+&lt;h4 id=&#34;driving-term&#34;&gt;Driving term&lt;/h4&gt;
+&lt;p&gt;The Rabi driving term is given by
+$$
+H_d = i\hbar \Omega \cos(\omega_q t) (b^\dagger - b)
+$$&lt;/p&gt;
+&lt;p&gt;and we treat the system under the interaction picture, there fore the energy level in this system for consider charge noise only and critical current only case are shown in Fig.1 and Fig.2, respectively.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20231031/image_hu5e1821362732dd39753de73d19331c90_270613_75951f454c449e59eccec5fb25fd3920.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image_hu5e1821362732dd39753de73d19331c90_270613_2231234efbee1c70a7d42722671e3b9e.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image_hu5e1821362732dd39753de73d19331c90_270613_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/image_hu5e1821362732dd39753de73d19331c90_270613_75951f454c449e59eccec5fb25fd3920.webp&#34;
+               width=&#34;586&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20231031/image-1_hu7051f3d08dc2e0ce49e79bb762bb0b3a_308584_fba6c71b599f290f027cb1fcf7274d7d.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image-1_hu7051f3d08dc2e0ce49e79bb762bb0b3a_308584_0370d3d74aa07be2cfdf6e316a833e2a.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image-1_hu7051f3d08dc2e0ce49e79bb762bb0b3a_308584_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/image-1_hu7051f3d08dc2e0ce49e79bb762bb0b3a_308584_fba6c71b599f290f027cb1fcf7274d7d.webp&#34;
+               width=&#34;548&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;experiment-result&#34;&gt;Experiment result&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Device shown in Fig.3 (a) and (b)&lt;/li&gt;
+&lt;li&gt;The qubit-flux response is shown in Fig3.(c)&lt;/li&gt;
+&lt;li&gt;The measuring method is sending a Ramsy-type pulse on the X-channel, and a Rabi Oscillation on the Y-channel in between the two $\pi/2$ X-pulse, shown in Fig.3(d)&lt;/li&gt;
+&lt;li&gt;The Bloch sphere dynamics are shown in Fig3.(e)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20231031/image-2_hu3577b93dd9f74d21c3c9b1b292c5a029_483698_4d486ed9d17e652fc3471c1a5d15d6ab.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image-2_hu3577b93dd9f74d21c3c9b1b292c5a029_483698_3ab44c292917123119c152f4f9de2942.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image-2_hu3577b93dd9f74d21c3c9b1b292c5a029_483698_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/image-2_hu3577b93dd9f74d21c3c9b1b292c5a029_483698_4d486ed9d17e652fc3471c1a5d15d6ab.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;443&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20231031/image-3_hub0bf791ebd596d16a507508741ea6adb_781056_62d55bf76c3a5c27018ec1f33a785b81.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image-3_hub0bf791ebd596d16a507508741ea6adb_781056_a33b3ade5ced670555d665f89c869ed7.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image-3_hub0bf791ebd596d16a507508741ea6adb_781056_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/image-3_hub0bf791ebd596d16a507508741ea6adb_781056_62d55bf76c3a5c27018ec1f33a785b81.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;365&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20231031/image-4_hue021fadf9f9250406e214f0866e5d4d6_600885_2d13a9d18c2fea3af1830c526e9bbb6a.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image-4_hue021fadf9f9250406e214f0866e5d4d6_600885_70a49fadc46c6cee5fcec161a65161b2.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image-4_hue021fadf9f9250406e214f0866e5d4d6_600885_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/image-4_hue021fadf9f9250406e214f0866e5d4d6_600885_2d13a9d18c2fea3af1830c526e9bbb6a.webp&#34;
+               width=&#34;493&#34;
+               height=&#34;760&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reading Paper 20231010</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231010/</link>
       <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231001/physreva.108.032615_jiheng_duan/</guid>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231010/</guid>
+      <description>&lt;h1 id=&#34;demonstration-of-universal-control-between-non-interacting-qubits-using-the-quantum-zeno-effect&#34;&gt;Demonstration of universal control between non-interacting qubits using the Quantum Zeno effect&lt;/h1&gt;
+&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 10/09/2023&lt;/p&gt;
+&lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;DOI: 10.1038/s41534-022-00594-4&lt;/li&gt;
+&lt;li&gt;Date: 2022&lt;/li&gt;
+&lt;li&gt;Author: E. Blumenthal, C. Mor, A. A. Diringer, L. S. Martin, P. Lewalle, D. Burgarth, K. B. Whaley, and S. Hacohen-Gourgy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
+&lt;p&gt;Using superconducting qubit to demonstrate quantum zeno effect.&lt;/p&gt;
+&lt;h2 id=&#34;quantum-zeno-effect&#34;&gt;Quantum Zeno effect&lt;/h2&gt;
+&lt;p&gt;An effect lies on the boundary between coherent and incoherent control of a quantum system, in which frequent measurements effectively freeze the system dynamics, holding the system at an eigenstate of the measurement observable.&lt;/p&gt;
+&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20231010/image_hufc2d0bd1e0ed1cd0b8fbed72968a898a_196722_2b3ebd07b85a06685f0b6d5e266c0fd4.webp 400w,
+               /blog/reading_paper/reading_paper_20231010/image_hufc2d0bd1e0ed1cd0b8fbed72968a898a_196722_255d28dcd2efd66dddb3e97cbb649f73.webp 760w,
+               /blog/reading_paper/reading_paper_20231010/image_hufc2d0bd1e0ed1cd0b8fbed72968a898a_196722_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231010/image_hufc2d0bd1e0ed1cd0b8fbed72968a898a_196722_2b3ebd07b85a06685f0b6d5e266c0fd4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;403&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A qutrit and a qubit inside a resonator, no interaction between qutrit and qubit.&lt;/li&gt;
+&lt;li&gt;See Fig. 1&lt;/li&gt;
+&lt;/ul&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;$q_1$: qutrit, $q_2$: qubit&lt;/li&gt;
+&lt;li&gt;$\varepsilon$ is the microwave pulse driving the resonator, at frequency $\omega_{fe}$&lt;/li&gt;
+&lt;li&gt;$\omega_{fe}$ is the resonator frequency when $|q_1, q_2\rangle = |f,e\rangle$, the dispersive shift.&lt;/li&gt;
+&lt;li&gt;$\Omega_R$ is the microwave pulse driving the qutrit state $|e\rangle \leftrightarrow |f\rangle$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;The driving of resonator is effective to be a measurement of the projection operator $P = 1 - |fe\rangle\langle fe|$ (frequently excite the cavity and measure at frequency $\omega_{fe}$, equivalent to frequently apply the measurement of the projection operator $P$).&lt;/li&gt;
+&lt;li&gt;The Zeno Hamiltonian becomes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H_{\text{Zeno}} = PHP = i\hbar \frac{\Omega_R}{2} \left( |eg\rangle\langle fg | - | fg \rangle \langle eg | \right)
+$$
+where $H = \frac{1}{2} \hbar \Omega_R \left( |e \rangle\langle f| - |f \rangle\langle e| \right) \otimes \left(g | \rangle\langle g| + |e \rangle\langle e| \right)$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;We see the Zeno Hamiltonian describe a Rabi between $|eg\rangle \leftrightarrow |fg\rangle$, and block the $|ee\rangle \leftrightarrow |fe\rangle$ transition.&lt;/li&gt;
+&lt;li&gt;This restrict the system into a computational subspace, shown as the color region in Fig. 1(b).&lt;/li&gt;
+&lt;li&gt;This can also be done for multiple qubit system. $P = 1 - |feee\cdots\rangle\langle feee\cdots|$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;experiment&#34;&gt;Experiment&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The system Hamiltonian without Zeno drive and Rabi drive is a dispersive Hamiltonian in the interaction picture&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H_{\text{disp}}\hbar = \left( \chi_1 |e_1\rangle\langle e_1 | + \chi_2 | e_2 \rangle\langle e_2 | + \chi_f | f \rangle\langle f| \right) a^\dagger a + \alpha_1 |f\rangle\langle f|
+$$
+where $\chi_i$ is the dispersive shift, $\alpha_i$ is the anharmonicity.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Despite the Zeno drive at $\omega_{fe}$, a symmetric drive which is symmetric to the Zeno measurement drive frequency with respect to $\omega_{eg}$ and $\omega_{ge}$ are added.&lt;/li&gt;
+&lt;li&gt;This symmetric drive balances the phase accumulation, such that this no longer generates entanglement.&lt;/li&gt;
+&lt;li&gt;The system Hamiltonian with Zeno and symmetric driving under the rotating frame of $\omega_{gg}$ is&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;$$
+H/\hbar = H_{disp}/\hbar + i\varepsilon \left( a e^{-i(\chi_f + \chi_2)t} - a^\dagger e^{i(\chi_f + \chi_2)t} \right) + i\varepsilon \left( a e^{-i(\chi_2 - \chi_f)t} - a^\dagger e^{i(\chi_2 - \chi_f)t} \right)
+$$&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Experiment result could refer to this paper. Here we skip it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;residual-effects-of-the-zeno-drive&#34;&gt;Residual effects of the Zeno drive&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refer to the Sec. Residual effect of the Zeno drive&lt;/li&gt;
+&lt;li&gt;The coherence will be lost due to measurement-induced dephasing at a rate.&lt;/li&gt;
+&lt;li&gt;The Zeno drive only will cause entanglement, which is the reason for adding additional symmetric drive.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Reading Paper 20231001</title>
+      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231001/</link>
+      <pubDate>Sun, 01 Oct 2023 00:00:00 +0000</pubDate>
+      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231001/</guid>
       <description>&lt;h1 id=&#34;microwave-driven-iswap-like-gate-for-ﬁxed-frequency-superconducting-transmon-qutrits&#34;&gt;Microwave-driven iSWAP-like gate for ﬁxed-frequency superconducting transmon qutrits&lt;/h1&gt;
 &lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 10/01/2023&lt;/p&gt;
 &lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
@@ -48,7 +403,14 @@
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image.png&#34; alt=&#34;Alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20231001/image_hued9cf08bc09b4c78133f037c129d4449_94357_df1bc27585ebd81fe74cfa9cd795d2a0.webp 400w,
+               /blog/reading_paper/reading_paper_20231001/image_hued9cf08bc09b4c78133f037c129d4449_94357_56119169e8384fb629e2066812941649.webp 760w,
+               /blog/reading_paper/reading_paper_20231001/image_hued9cf08bc09b4c78133f037c129d4449_94357_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231001/image_hued9cf08bc09b4c78133f037c129d4449_94357_df1bc27585ebd81fe74cfa9cd795d2a0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;607&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ul&gt;
@@ -103,7 +465,14 @@ $$&lt;/p&gt;
 
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image-1.png&#34; alt=&#34;Alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;Alt text&#34; srcset=&#34;
+               /blog/reading_paper/reading_paper_20231001/image-1_hue6c80f8a7072e65a7a82fc2908a11f94_112982_0e0747cf6051b65837ab5f7b04953aa0.webp 400w,
+               /blog/reading_paper/reading_paper_20231001/image-1_hue6c80f8a7072e65a7a82fc2908a11f94_112982_07a254e00b1a360ec230e8e01bcc63a0.webp 760w,
+               /blog/reading_paper/reading_paper_20231001/image-1_hue6c80f8a7072e65a7a82fc2908a11f94_112982_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231001/image-1_hue6c80f8a7072e65a7a82fc2908a11f94_112982_0e0747cf6051b65837ab5f7b04953aa0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;326&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;ul&gt;
@@ -140,98 +509,6 @@ $$&lt;/p&gt;
 &lt;li&gt;The gate fidelity increase with the quality factor of the resonator. See Fig.6 (c).&lt;/li&gt;
 &lt;li&gt;The decoherence affected gate error are shown in Fig.6 (c) and (d).&lt;/li&gt;
 &lt;li&gt;The discussion of leakage error is shown in Appendix C.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Reading Paper 20231001</title>
-      <link>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231009/npj_quantum_s41534-022-00594-4_jihengduan/</link>
-      <pubDate>Tue, 10 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231009/npj_quantum_s41534-022-00594-4_jihengduan/</guid>
-      <description>&lt;h1 id=&#34;demonstration-of-universal-control-between-non-interacting-qubits-using-the-quantum-zeno-effect&#34;&gt;Demonstration of universal control between non-interacting qubits using the Quantum Zeno effect&lt;/h1&gt;
-&lt;p&gt;Jiheng Duan, &lt;a href=&#34;mailto:jiheng.duan@rochester.edu&#34;&gt;jiheng.duan@rochester.edu&lt;/a&gt;, 10/09/2023&lt;/p&gt;
-&lt;h2 id=&#34;paper-information&#34;&gt;Paper Information&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;DOI: 10.1038/s41534-022-00594-4&lt;/li&gt;
-&lt;li&gt;Date: 2022&lt;/li&gt;
-&lt;li&gt;Author: E. Blumenthal, C. Mor, A. A. Diringer, L. S. Martin, P. Lewalle, D. Burgarth, K. B. Whaley, and S. Hacohen-Gourgy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;motivation&#34;&gt;Motivation&lt;/h2&gt;
-&lt;p&gt;Using superconducting qubit to demonstrate quantum zeno effect.&lt;/p&gt;
-&lt;h2 id=&#34;quantum-zeno-effect&#34;&gt;Quantum Zeno effect&lt;/h2&gt;
-&lt;p&gt;An effect lies on the boundary between coherent and incoherent control of a quantum system, in which frequent measurements effectively freeze the system dynamics, holding the system at an eigenstate of the measurement observable.&lt;/p&gt;
-&lt;h2 id=&#34;method&#34;&gt;Method&lt;/h2&gt;
-&lt;p&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-&lt;figure  &gt;
-  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
-    &lt;div class=&#34;w-100&#34; &gt;&lt;img src=&#34;image.png&#34; alt=&#34;Alt text&#34; loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
-  &lt;/div&gt;&lt;/figure&gt;
-&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A qutrit and a qubit inside a resonator, no interaction between qutrit and qubit.&lt;/li&gt;
-&lt;li&gt;See Fig. 1&lt;/li&gt;
-&lt;/ul&gt;
-&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;$q_1$: qutrit, $q_2$: qubit&lt;/li&gt;
-&lt;li&gt;$\varepsilon$ is the microwave pulse driving the resonator, at frequency $\omega_{fe}$&lt;/li&gt;
-&lt;li&gt;$\omega_{fe}$ is the resonator frequency when $|q_1, q_2\rangle = |f,e\rangle$, the dispersive shift.&lt;/li&gt;
-&lt;li&gt;$\Omega_R$ is the microwave pulse driving the qutrit state $|e\rangle \leftrightarrow |f\rangle$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;The driving of resonator is effective to be a measurement of the projection operator $P = 1 - |fe\rangle\langle fe|$ (frequently excite the cavity and measure at frequency $\omega_{fe}$, equivalent to frequently apply the measurement of the projection operator $P$).&lt;/li&gt;
-&lt;li&gt;The Zeno Hamiltonian becomes&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-H_{\text{Zeno}} = PHP = i\hbar \frac{\Omega_R}{2} \left( |eg\rangle\langle fg | - | fg \rangle \langle eg | \right)
-$$
-where $H = \frac{1}{2} \hbar \Omega_R \left( |e \rangle\langle f| - |f \rangle\langle e| \right) \otimes \left(g | \rangle\langle g| + |e \rangle\langle e| \right)$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;We see the Zeno Hamiltonian describe a Rabi between $|eg\rangle \leftrightarrow |fg\rangle$, and block the $|ee\rangle \leftrightarrow |fe\rangle$ transition.&lt;/li&gt;
-&lt;li&gt;This restrict the system into a computational subspace, shown as the color region in Fig. 1(b).&lt;/li&gt;
-&lt;li&gt;This can also be done for multiple qubit system. $P = 1 - |feee\cdots\rangle\langle feee\cdots|$&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;experiment&#34;&gt;Experiment&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;The system Hamiltonian without Zeno drive and Rabi drive is a dispersive Hamiltonian in the interaction picture&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-H_{\text{disp}}\hbar = \left( \Chi_1 |e_1\rangle\langle e_1 | + \Chi_2 | e_2 \rangle\langle e_2 | + \Chi_f | f \rangle\langle f| \right) a^\dagger a + \alpha_1 |f\rangle\langle f|
-$$
-where $\Chi_i$ is the dispersive shift, $\alpha_i$ is the anharmonicity.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Despite the Zeno drive at $\omega_{fe}$, a symmetric drive which is symmetric to the Zeno measurement drive frequency with respect to $\omega_{eg}$ and $\omega_{ge}$ are added.&lt;/li&gt;
-&lt;li&gt;This symmetric drive balances the phase accumulation, such that this no longer generates entanglement.&lt;/li&gt;
-&lt;li&gt;The system Hamiltonian with Zeno and symmetric driving under the rotating frame of $\omega_{gg}$ is&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;$$
-H/\hbar = H_{disp}/\hbar + i\varepsilon \left( a e^{-i(\Chi_f + \Chi_2)t} - a^\dagger e^{i(\Chi_f + \Chi_2)t} \right) + i\varepsilon \left( a e^{-i(\Chi_2 - \Chi_f)t} - a^\dagger e^{i(\Chi_2 - \Chi_f)t} \right)
-$$&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Experiment result could refer to this paper. Here we skip it.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;residual-effects-of-the-zeno-drive&#34;&gt;Residual effects of the Zeno drive&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Refer to the Sec. Residual effect of the Zeno drive&lt;/li&gt;
-&lt;li&gt;The coherence will be lost due to measurement-induced dephasing at a rate.&lt;/li&gt;
-&lt;li&gt;The Zeno drive only will cause entanglement, which is the reason for adding additional symmetric drive.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

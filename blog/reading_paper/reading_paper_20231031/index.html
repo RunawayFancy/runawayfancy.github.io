@@ -1,0 +1,1473 @@
+<!DOCTYPE html>
+<!-- This site was created with Wowchemy. https://www.wowchemy.com -->
+<!-- Last Published: November 1, 2023 --><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.7.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+
+  
+  
+    
+    <script src="/js/mathjax-config.js"></script>
+  
+
+  
+
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.2/css/academicons.min.css" integrity="sha512-KlJCpRsLf+KKu2VQa5vmRuClRFjxc5lXO03ixZt82HZUk41+1I0bD8KBSA0fY290ayMfWYI9udIqeOWSu1/uZg==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+    
+    
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+
+
+
+
+
+
+  <meta name="author" content="Jiheng Duan 段繼恆" />
+
+
+
+
+
+  
+
+<meta name="description" content="Identification of Different Types of High-Frequency Defects in Superconducting Qubits" />
+
+
+
+<link rel="alternate" hreflang="en-us" href="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/" />
+<link rel="canonical" href="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/" />
+
+
+
+  <link rel="manifest" href="/manifest.webmanifest" />
+
+
+
+<link rel="icon" type="image/png" href="/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_180x180_fill_lanczos_center_3.png" />
+
+<meta name="theme-color" content="#1565c0" />
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+<meta property="twitter:card" content="summary" />
+<meta property="twitter:image" content="https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Jiheng Duan" />
+<meta property="og:url" content="https://runawayfancy.github.io/blog/reading_paper/reading_paper_20231031/" />
+<meta property="og:title" content="Reading Paper 20231031 | Jiheng Duan" />
+<meta property="og:description" content="Identification of Different Types of High-Frequency Defects in Superconducting Qubits" /><meta property="og:image" content="https://runawayfancy.github.io/media/icon_hu5de96a324c5fb1f54ea81865a52f325a_30207_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+
+  
+    <meta
+      property="article:published_time"
+      content="2023-10-31T00:00:00&#43;00:00"
+    />
+  
+  
+    <meta property="article:modified_time" content="2023-10-31T00:00:00&#43;00:00">
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  
+
+  
+  
+
+  
+
+
+  
+  <title>Reading Paper 20231031 | Jiheng Duan</title>
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper   " data-wc-page-id="dcf85595f5fa143146b1874211fa6794" >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+
+  
+
+
+
+
+  <div class="page-header header--fixed">
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#about"><span>Home</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#research"><span>Research</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#blog"><span>Blog</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#gallery"><span>Gallery</span></a>
+          </li>
+
+          
+          
+
+          
+          <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"><span>Miscellany</span><span class="caret"></span>
+            </a>
+            <div class="dropdown-menu">
+              
+                <a class="dropdown-item" href="/#SPUM"><span>SPUM</span></a>
+              
+                <a class="dropdown-item" href="/#editing"><span>Minecraft & Editing</span></a>
+              
+                <a class="dropdown-item" href="/#REMS"><span>REMS SMP</span></a>
+              
+                <a class="dropdown-item" href="/miscellany/connection"><span>Friends</span></a>
+              
+            </div>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/uploads/CV.pdf"><span>CV</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/xueduanle" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
+          
+        
+
+        
+        
+        
+
+        
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+    
+    
+
+    <article class="article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1>Reading Paper 20231031</h1>
+
+  
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  <span class="author-highlighted">
+      Jiheng Duan 段繼恆</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Oct 31, 2023
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder mr-1"></i><a href="/category/blog/">Blog</a></span>
+  
+
+</div>
+
+    
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h1 id="identification-of-different-types-of-high-frequency-defects-in-superconducting-qubits">Identification of Different Types of High-Frequency Defects in Superconducting Qubits</h1>
+<p>Jiheng Duan, <a href="mailto:jiheng.duan@rochester.edu">jiheng.duan@rochester.edu</a>, 10/31/2023</p>
+<h2 id="paper-information">Paper Information</h2>
+<ul>
+<li>DOI: 10.1103/PRXQuantum.3.040332</li>
+<li>Date: 2022</li>
+<li>Author: Leonid V. Abdurakhimov, Imran Mahboob, Hiraku Toida, Kosuke Kakuyanagi, Yuichiro Matsuzaki, and Shiro Saito</li>
+</ul>
+<h2 id="motivation">Motivation</h2>
+<ol>
+<li>Using c-shunt Flux qubit to characterize high frequency TLS</li>
+<li>Study two types TLS: charge noise and critical current noise</li>
+<li>Experimentally verify the proposed qubit-TLS interaction model</li>
+</ol>
+<h2 id="background">Background</h2>
+<p>Some key concepts are collected from Sec.1 of this paper.</p>
+<ol>
+<li>Possible TLS sources: tunneling atoms, dangling electronic bonds, impurity atoms, and trapped charge states.</li>
+<li>A junction tunnel barrier is formed of an amorphous layer of aluminum oxide that hosts a large number of TLS defects</li>
+<li>Normally, it is assumed that the qubit-defect interaction is caused by an electric field coupling between an electric dipole associated with a charge TLS defect and a microwave electric field generated across a Josephson junction</li>
+<li>Characterizing method: qubit-TLS frequency matching, apply external E-field to change TLS frequency, adding strength</li>
+<li>Measurement method: measure the avoid-crossing of the qubit frequency spectrum, qubit response to the Rabi drive, measuring qubit&rsquo;s $T_1$, off-resonant drive (for fixed-frequency qubit, narrow band width: $\pm 25$ MHz)</li>
+<li>For low-frequency TLS characterization method, the spin-locking pulse sequence (low-frequency spin-locking spectroscopy) method are used, focusing on low-frequency longitudinal nose.</li>
+<li>This work make a complements to the spin-locking method as the reported method effectively probes a high-frequency transverse noise</li>
+<li>Also, those population oscillations due to the non-resonant (dispersive) interaction between the qubit and detuned TLS defects can result in additional gate and measurement errors</li>
+</ol>
+<h2 id="key-idea-of-this-work">Key idea of this work</h2>
+<p>In this paper, they use strong resonant qubit drive method: the relaxation of a strongly driven qubit can be affected by the presence of an off- resonant high-frequency TLS defect due to the dynamic splitting of the qubit transition frequency, caused by the resonant ac Stark effect (Autler-Townes splitting), and the corresponding dynamic matching of qubit and TLS defect frequencies in the rotating frame.</p>
+<h3 id="two-types-of-defects">Two types of defects</h3>
+<p>The total Hamiltonian is given by
+$$
+H = H_q + H_{\text{TLS}} + H_I^{(\mu)} + H_d
+$$
+where $H_q$: qubit hamiltonian, $H_{\text{TLS}}$: TLS Hamiltonian, the interaction term for qubit-TLS interaction, $\mu\in{C,I}$ represents charge and critical current noise.</p>
+<h4 id="qubit-hamiltonian">Qubit Hamiltonian</h4>
+<p>For a c-shunt flux qubit, its intrinsic Hamiltonian with charge and critical current noise is</p>
+<p>$$
+H = E_{C_S} (n + \delta n)^2 + 2E_J (1-\cos \phi) \ + \alpha E_J \left( 1 + \frac{\delta I_\alpha}{\alpha I_c} \right) [1+\cos(2\phi + 2\pi \delta f)]
+$$</p>
+<p>where the notation and details can refer to Sec.2 A of this paper <strong>(suggested)</strong>.</p>
+<p>The second quantized qubit Hamiltonian is given by</p>
+<p>$$
+H_q = \hbar \left( \omega_b + \frac{A}{2} \right) b^\dagger+b  + \frac{\hbar A}{2}(b^\dagger b)^2
+$$
+where
+$$
+\hbar A = \frac{8\alpha - 1}{4-8\alpha} E_{C_S}.
+$$
+The qubit frequency is now $\omega_1 = \omega_{01} = \omega_b+A$, and $\omega_{12} = \omega_b +2A$.</p>
+<h4 id="tls-hamiltonian">TLS Hamiltonian</h4>
+<p>The intrinsic Hamiltonian of a TLS is given by</p>
+<p>$$
+H_{\text{TLS}} = \frac{1}{2} \hbar \omega_{\text{TLS}} \sigma_z
+$$</p>
+<h4 id="qubit-tls-interaction">Qubit-TLS interaction</h4>
+<h5 id="charge-noise">Charge noise</h5>
+<p>The standard charge-fluctuation TLS defects</p>
+<ul>
+<li>Interaction type: beam-splitter-type interaction</li>
+</ul>
+<p>The qubit-TLS interaction is give by</p>
+<p>$$
+H_I^{(C)} = i\hbar g_C (b^\dagger + b)
+$$
+where the coupling strength is given by
+$$
+g_C = \frac{1}{2} \delta n_{\text{TLS}} \sqrt{\frac{\omega_b E_{C_S}}{\hbar}}
+$$
+where the charge fluctuation is $\delta n_{\text{TLS}}$</p>
+<h5 id="critical-current-noise">Critical current noise</h5>
+<p>The TLS defects with a nonlinear coupling to the qubit mediated by critical-current fluctuations.</p>
+<ul>
+<li>
+<p><strong>Reason:</strong> As the thickness of the junction tunnel barrier is nonuniform, the tunneling of Copper pairs occurs through a discrete set nof conductance channels. Fluctuations in the charge configuration of a TLS defect can block on of the conductance channels, resulting in the fluctuations of the critical current</p>
+</li>
+<li>
+<p>Interaction type: three-wave-mixing interaction</p>
+</li>
+</ul>
+<p>The qubit-TLS interacting Hamiltonian is given by</p>
+<p>$$
+H_I^{(I)} = \hbar g_I^{(1)} \sigma_x (b^\dagger + b) + \hbar g_I^{(2)} \sigma_x (b^\dagger + b)^2
+$$</p>
+<p>where the two coupling strength is given by
+$$
+g_I^{(1)} = -\pi \delta f \frac{\alpha}{\sqrt{1-2\alpha}} \left( \frac{\delta I_{\text{TLS}}}{\alpha I_c} \right) \sqrt{\frac{\omega_b E_J}{\hbar}}
+$$
+and
+$$
+g_I^{(2)} = -\frac{\alpha}{4-8\alpha} \left( \frac{\delta I_{\text{TLS}}}{\alpha I_c} \right) \omega_b
+$$</p>
+<p>In this paper, the qubit is operated at the optimal flux bias point, which means $\delta g \approx 0$. Therefore, the critical current TLS-qubit interaction term is reduced to</p>
+<p>$$
+H_I^{(I)} = \hbar g_I^{(2)} \sigma_x (b^\dagger + b)^2
+$$</p>
+<h4 id="driving-term">Driving term</h4>
+<p>The Rabi driving term is given by
+$$
+H_d = i\hbar \Omega \cos(\omega_q t) (b^\dagger - b)
+$$</p>
+<p>and we treat the system under the interaction picture, there fore the energy level in this system for consider charge noise only and critical current only case are shown in Fig.1 and Fig.2, respectively.</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20231031/image_hu5e1821362732dd39753de73d19331c90_270613_75951f454c449e59eccec5fb25fd3920.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image_hu5e1821362732dd39753de73d19331c90_270613_2231234efbee1c70a7d42722671e3b9e.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image_hu5e1821362732dd39753de73d19331c90_270613_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20231031/image_hu5e1821362732dd39753de73d19331c90_270613_75951f454c449e59eccec5fb25fd3920.webp"
+               width="586"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20231031/image-1_hu7051f3d08dc2e0ce49e79bb762bb0b3a_308584_fba6c71b599f290f027cb1fcf7274d7d.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image-1_hu7051f3d08dc2e0ce49e79bb762bb0b3a_308584_0370d3d74aa07be2cfdf6e316a833e2a.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image-1_hu7051f3d08dc2e0ce49e79bb762bb0b3a_308584_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20231031/image-1_hu7051f3d08dc2e0ce49e79bb762bb0b3a_308584_fba6c71b599f290f027cb1fcf7274d7d.webp"
+               width="548"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<h2 id="experiment-result">Experiment result</h2>
+<ol>
+<li>Device shown in Fig.3 (a) and (b)</li>
+<li>The qubit-flux response is shown in Fig3.(c)</li>
+<li>The measuring method is sending a Ramsy-type pulse on the X-channel, and a Rabi Oscillation on the Y-channel in between the two $\pi/2$ X-pulse, shown in Fig.3(d)</li>
+<li>The Bloch sphere dynamics are shown in Fig3.(e)</li>
+</ol>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20231031/image-2_hu3577b93dd9f74d21c3c9b1b292c5a029_483698_4d486ed9d17e652fc3471c1a5d15d6ab.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image-2_hu3577b93dd9f74d21c3c9b1b292c5a029_483698_3ab44c292917123119c152f4f9de2942.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image-2_hu3577b93dd9f74d21c3c9b1b292c5a029_483698_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20231031/image-2_hu3577b93dd9f74d21c3c9b1b292c5a029_483698_4d486ed9d17e652fc3471c1a5d15d6ab.webp"
+               width="760"
+               height="443"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20231031/image-3_hub0bf791ebd596d16a507508741ea6adb_781056_62d55bf76c3a5c27018ec1f33a785b81.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image-3_hub0bf791ebd596d16a507508741ea6adb_781056_a33b3ade5ced670555d665f89c869ed7.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image-3_hub0bf791ebd596d16a507508741ea6adb_781056_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20231031/image-3_hub0bf791ebd596d16a507508741ea6adb_781056_62d55bf76c3a5c27018ec1f33a785b81.webp"
+               width="760"
+               height="365"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+<p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<figure  >
+  <div class="d-flex justify-content-center">
+    <div class="w-100" ><img alt="Alt text" srcset="
+               /blog/reading_paper/reading_paper_20231031/image-4_hue021fadf9f9250406e214f0866e5d4d6_600885_2d13a9d18c2fea3af1830c526e9bbb6a.webp 400w,
+               /blog/reading_paper/reading_paper_20231031/image-4_hue021fadf9f9250406e214f0866e5d4d6_600885_70a49fadc46c6cee5fcec161a65161b2.webp 760w,
+               /blog/reading_paper/reading_paper_20231031/image-4_hue021fadf9f9250406e214f0866e5d4d6_600885_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+               src="/blog/reading_paper/reading_paper_20231031/image-4_hue021fadf9f9250406e214f0866e5d4d6_600885_2d13a9d18c2fea3af1830c526e9bbb6a.webp"
+               width="493"
+               height="760"
+               loading="lazy" data-zoomable /></div>
+  </div></figure>
+</p>
+
+    </div>
+
+    
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/academic/">Academic</a>
+  
+  <a class="badge badge-light" href="/tag/quantum-physics/">Quantum Physics</a>
+  
+  <a class="badge badge-light" href="/tag/quantum-information-science/">Quantum Information Science</a>
+  
+</div>
+
+
+
+<div class="share-box">
+  <ul class="share">
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20231031%2F&amp;text=Reading&#43;Paper&#43;20231031" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20231031%2F&amp;t=Reading&#43;Paper&#43;20231031" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+          <i class="fab fa-facebook"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a href="mailto:?subject=Reading%20Paper%2020231031&amp;body=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20231031%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20231031%2F&amp;title=Reading&#43;Paper&#43;20231031" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="whatsapp://send?text=Reading&#43;Paper&#43;20231031%20https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20231031%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+      </li>
+    
+      
+      
+      
+        
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Frunawayfancy.github.io%2Fblog%2Freading_paper%2Freading_paper_20231031%2F&amp;title=Reading&#43;Paper&#43;20231031" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+          <i class="fab fa-weibo"></i>
+        </a>
+      </li>
+    
+  </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+
+
+
+  
+  
+  
+    
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+      
+      <a href="https://runawayfancy.github.io/"><img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_huad667b7b6dbf53cbe0c0f0a497b901e3_3057456_270x270_fill_q75_lanczos_center.jpg" alt="Jiheng Duan 段繼恆"></a>
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="https://runawayfancy.github.io/">Jiheng Duan 段繼恆</a></h5>
+      <h6 class="card-subtitle">First year PhD student</h6>
+      <p class="card-text">My research interests include superconducting quantum computing, high fidelity two-qubit gate, and distortion correction of digital signals.</p>
+      <ul class="network-icon" aria-hidden="true">
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+    <li>
+      <a href="mailto:jiheng.duan@rochester.edu" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/xueduanle" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=cHOxggIAAAAJ" target="_blank" rel="noopener">
+        <i class="fas fa-graduation-cap"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/RunawayFancy" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://www.linkedin.com/in/jiheng-duan-232246266/" target="_blank" rel="noopener">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/uploads/CV.pdf" >
+        <i class="ai ai-cv"></i>
+      </a>
+    </li>
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </div>
+</article>
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  <p class="powered-by copyright-license-text">
+    Copyright © 2023 Jiheng Duan. This work is licensed under MIT license
+  </p>
+  
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+
+
+<script src="/js/vendor-bundle.min.f64289d8217e08e3afcd597d60836062.js"></script>
+
+
+
+
+  
+
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script id="page-data" type="application/json">{"use_headroom":true}</script>
+
+
+
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+
+
+
+
+
+
+
+
+
+
+<script src="/en/js/wowchemy.min.fa71bfdd82ca5b7ea4a46c3c3d1b03fa.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
